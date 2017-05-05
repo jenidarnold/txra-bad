@@ -237,9 +237,9 @@
 													HOW TO PLAY
 												</a>
 												<ul class="dropdown-menu">
-													<li><a href="play/basics">THE BASICS</a></li>
-													<li><a href="play/rules">THE RULES</a></li>
-													<li><a href="play/tips">TIPS</a></li>
+													<li><a href="{{ route('play.basics')}}">THE BASICS</a></li>
+													<li><a href="{{ route('play.rules')}}">THE RULES</a></li>
+													<li><a href="{{ route('play.tips')}}">TIPS</a></li>
 												</ul>
 											</li>
 											<li class="dropdown">

@@ -5,7 +5,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Redirect;
 
-class PlayController extends Controller {
+class EventsController extends Controller {
 
 	/**
 	 * Create a new controller instance.
@@ -16,24 +16,26 @@ class PlayController extends Controller {
 	{
 		//$this->middleware('auth');
 	}
-	
+		
 	/**
-	 * Display basics.
+	 * Display index of events.
 	 *
 	 * @return Response
 	 */
-	public function basics(Request $request)
+	public function index(Request $request)
 	{
-		return view('play/basics');
+
+		return view('events/index', compact('events'));
 	}
-	
+
 	/**
-	 * Display rules.
+	 * Display live events.
 	 *
 	 * @return Response
 	 */
-	public function rules(Request $request)
+	public function live(Request $request)
 	{
-		return view('play/rules');
+
+		return view('events/show', compact('events'));
 	}
 }

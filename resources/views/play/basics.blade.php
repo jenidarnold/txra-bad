@@ -12,7 +12,7 @@
 			<!-- LEFT -->
 			<div class="col-md-9">
 
-				<img class="pull-left" src="../assets/images/play/court.jpg" alt="" />
+				<img class="pull-left" src="{{ asset('images/play/court.jpg')}}" alt="" />
 
 				<div class="heading-title">
 					<h2>HOW  TO PLAY RACQUETBALL</h2>
@@ -45,10 +45,7 @@
 						<div class="heading-title heading-border-bottom heading-color">
 							<h3>Fitness Facts</h3>
 						</div>
-
-						<p>Aliquam tempus orci luctus laoreet. Aenean ligula non ipsum dolor sit amet, orci imperdiet sagittis, ipsum non nonummy consequat. Nulla augue justo nibh ac diam. Donec est. Maecenas diam aliquet mi augue, id enim.</p>
-						<p>Aenean ligula non imperdiet sagittis, ipsum non nonummy consequat. Nulla augue justo nibh ac diam. Donec est. Maecenas diam aliquet mi augue, id enim. Suspendisse potenti. Vestibulum vel nonummy sed, vehicula libero. In laoreet purus lacinia varius nunc, sed libero et odio. Aenean vel sollicitudin justo. Praesent a dolor massa imperdiet sagittis, nunc faucibus nibh. Maecenas vitae ipsum primis in dui.</p>
-
+						<p></p>
 					</div>
 
 				</div>
@@ -58,46 +55,17 @@
 
 					<div class="heading-title heading-border-bottom heading-color text-center">
 						<h3>Why  Play Racquetball?</h3>
-						<p>why smarty is different than any other template</p>
 					</div>
-					<p>Sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla augue justo nibh ac diam.</p>
+					<p></p>
 
 					<div class="row">
-
 						<div class="col-sm-4">
 							<ul class="list-unstyled list-icons">
-								<li><i class="fa fa-check text-success"></i> Nulla ipsum dolor lacus, suscipit.</li>
-								<li><i class="fa fa-check text-success"></i> Quisque lorem tortor fringilla sed.</li>
-								<li><i class="fa fa-check text-success"></i> Aenean ligula non imperdiet sagittis</li>
-								<li><i class="fa fa-check text-success"></i> Suspendisse a pellentesque dui.</li>
-								<li><i class="fa fa-check text-success"></i> Congue sodales nulla id arcu</li>
+								
 							</ul>
 						</div>
-
-						<div class="col-sm-4">
-							<ul class="list-unstyled list-icons">
-								<li><i class="fa fa-check text-success"></i> Nulla ipsum dolor lacus, suscipit.</li>
-								<li><i class="fa fa-check text-success"></i> Quisque lorem tortor fringilla sed.</li>
-								<li><i class="fa fa-check text-success"></i> Aenean ligula non imperdiet sagittis</li>
-								<li><i class="fa fa-check text-success"></i> Suspendisse a pellentesque dui.</li>
-								<li><i class="fa fa-check text-success"></i> Congue sodales nulla id arcu</li>
-							</ul>
-						</div>
-
-						<div class="col-sm-4">
-							<ul class="list-unstyled list-icons">
-								<li><i class="fa fa-check text-success"></i> Nulla ipsum dolor lacus, suscipit.</li>
-								<li><i class="fa fa-check text-success"></i> Quisque lorem tortor fringilla sed.</li>
-								<li><i class="fa fa-check text-success"></i> Aenean ligula non imperdiet sagittis</li>
-								<li><i class="fa fa-check text-success"></i> Suspendisse a pellentesque dui.</li>
-								<li><i class="fa fa-check text-success"></i> Congue sodales nulla id arcu</li>
-							</ul>
-						</div>
-
 					</div>
-
 				</div>
-
 			</div>
 			<!-- /LEFT -->
 
@@ -106,39 +74,18 @@
 
 				<div class="box-static box-border-top margin-bottom-60">
 					<div class="box-title">
-						<h4>We can deal with</h4>
+						<h4>Additional Info</h4>
 					</div>
 					<ul class="list-unstyled list-icons padding-15 nopadding-bottom">
 						<li class="margin-bottom-20">
 							<i class="fa fa-check text-success size-18"></i>
-							<span class="block bold size-18">Surgery</span>
+							<span class="block bold size-18">Digital Magazine</span>
 							<small>lorem ipsum dolor sit amet</small>
-						</li>
-						<li class="margin-bottom-20">
-							<i class="fa fa-check text-success size-18"></i>
-							<span class="block bold size-18">Cardiology</span>
-							<small>lorem ipsum dolor sit amet</small>
-						</li>
-						<li class="margin-bottom-20">
-							<i class="fa fa-check text-success size-18"></i>
-							<span class="block bold size-18">Internal Medicine</span>
-							<small>lorem ipsum dolor sit amet</small>
-						</li>
-						<li class="margin-bottom-20">
-							<i class="fa fa-check text-success size-18"></i>
-							<span class="block bold size-18">Rehabilitation</span>
-							<small>lorem ipsum dolor sit amet</small>
-						</li>
+						</li>					
 					</ul>
 
 					<hr />
-
-					<p class="text-center size-11 margin-bottom-10">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis.</p>
 				</div>
-
-				<!-- FACEBOOK -->
-				<iframe class="hidden-xs" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fstepofweb&amp;width=263&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" style="border:none; overflow:hidden; width:263px; height:258px;"></iframe>
-
 
 				<hr />
 
