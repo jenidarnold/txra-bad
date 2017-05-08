@@ -333,8 +333,7 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="dropdown">
-												<a href="{{route('members.index')}}">PROFILES</a>
-												<a href="{{route('members.show')}}">PROFILE</a>
+												<a href="{{route('members.listing')}}">PROFILES</a>
 											</li>
 											<li class="dropdown">
 												<a class="dropdown-toggle" href="#">

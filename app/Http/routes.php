@@ -32,6 +32,12 @@ Route::group(['namespace' => 'Play', 'prefix' =>'play'], function()
 Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()
 {
 	// League
-	Route::get('index', array('as' => 'members.index', 'uses' => 'MemberController@index'));	
+	Route::get('listing', array('as' => 'members.listing', 'uses' => 'MemberController@index'));	
 	Route::get('profile', array('as' => 'members.show', 'uses' => 'MemberController@show'));	
+});
+
+Route::group(['namespace' => 'About', 'prefix' =>'about'], function()
+{
+	Route::get('board', array('as' => 'about.board', 'uses' => 'LeadershipController@board'));	
+	Route::get('committees', array('as' => 'about.board', 'uses' => 'LeadershipController@committees'));	
 });
