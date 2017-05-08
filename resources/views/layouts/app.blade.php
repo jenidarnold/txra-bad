@@ -216,12 +216,17 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
+												<a class="" href="/">
+													WELCOME
+												</a>
+											</li>
+											<li class="dropdown">
+												<a class="dropdown" href="/login">
 													LOGIN
 												</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
+												<a class="dropdown" href="/register">
 													REGISTER
 												</a>
 											</li>
@@ -328,9 +333,8 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													PROFILES
-												</a>
+												<a href="{{route('members.index')}}">PROFILES</a>
+												<a href="{{route('members.show')}}">PROFILE</a>
 											</li>
 											<li class="dropdown">
 												<a class="dropdown-toggle" href="#">
@@ -510,7 +514,7 @@
 		</div><!-- /PRELOADER -->
 
 		<!-- JAVASCRIPT FILES -->
-		<script type="text/javascript">var plugin_path = 'plugins/';</script>
+		<script type="text/javascript">var plugin_path = '/plugins/';</script>
 		<script type="text/javascript" src="{{ asset('plugins/jquery/jquery-2.2.3.min.js') }}"></script>
 
 		<!-- LAYER SLIDER -->
