@@ -404,9 +404,10 @@
 													LEADERSHIP
 												</a>
 												<ul class="dropdown-menu">
-													<li><a href="portfolio-single-extended.html">THE BOARD OF DIRECTORS & OFFICERS</a></li>
-													<li><a href="portfolio-single-parallax.html">COMMITTEES</a></li>
-													<li><a href="portfolio-single-parallax.html">ELECTION PROCEDURE</a></li>
+													<li><a href="{{ route('board.index')}}">THE BOARD OF DIRECTORS</a></li>
+													<li><a href="{{ route('committees.index')}}" >COMMITTEES</a></li>
+													<li><a href="{{ route('volunteer.index')}}" >Volunteer</a></li>
+													<li><a href="{{ route('election.index')}}" >ELECTION PROCEDURE</a></li>
 												</ul>
 											</li>
 											<li class="dropdown">

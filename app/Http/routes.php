@@ -38,6 +38,8 @@ Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()
 
 Route::group(['namespace' => 'About', 'prefix' =>'about'], function()
 {
-	Route::get('board', array('as' => 'about.board', 'uses' => 'LeadershipController@board'));	
-	Route::get('committees', array('as' => 'about.board', 'uses' => 'LeadershipController@committees'));	
+	Route::get('board', array('as' => 'board.index', 'uses' => 'LeadershipController@board'));	
+	Route::get('committees', array('as' => 'committees.index', 'uses' => 'LeadershipController@committees'));
+	Route::get('volunteer', array('as' => 'volunteer.index', 'uses' => 'LeadershipController@volunteer'));
+	Route::get('election/process', array('as' => 'election.index', 'uses' => 'LeadershipController@election'));	
 });

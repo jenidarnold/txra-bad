@@ -38,4 +38,15 @@ class LeadershipController extends Controller {
 
 		return view('about/committees');
 	}
+
+	/**
+	 * Display member profile.
+	 *
+	 * @return Response
+	 */
+	public function election(Request $request)
+	{
+
+		return view('about/election');
+	}
 }

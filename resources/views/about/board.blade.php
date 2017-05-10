@@ -27,8 +27,8 @@
 			<section>
 				<div class="container">
 					
-					<p class="lead">Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this.</p>
-					<p>Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this totam rem aperiam, eaque ipsa qu ab illo inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo. Nemo enim sadips ipsums dolores sit.Nemo enims sadips ipsums un inventore veritatis et quasi.</p>
+					<p class="lead">The Board of the Texas Racquetball Association is committed to our members and the growth of racquetball in Texas from recreational play to international competition.</p>
+					<p>Our mission is to provide raccquetball opportunities for all levels of participation. We promote the sport with various marketing efforts. We expand our membership by recruiting at the grassroot level. We strive to provide many services our members</p>
 
 					<div class="row">
 					
@@ -172,7 +172,7 @@
 									<div class="box1 box-default">
 										<div class="box-icon-title">
 											<img class="img-responsive" src="assets/images/demo/people/460x700/8-min.jpg" alt="" />
-											<h2>Mitch McCoy</h2>
+											<h2>Mitchell McCoy</h2>
 											<small>SECRETARY</small>
 										</div>
 									</div>
@@ -180,7 +180,7 @@
 
 								<div class="back">
 									<div class="box2 box-default">
-										<h4 class="nomargin">Mitch McCoy</h4>
+										<h4 class="nomargin">Mitchell McCoy</h4>
 										<small>SECRETARY</small>
 
 										<hr />
@@ -219,8 +219,8 @@
 								<div class="front">
 									<div class="box1 box-default">
 										<div class="box-icon-title">
-											<img class="img-responsive" src="assets/images/demo/people/460x700/7-min.jpg" alt="" />
-											<h2>Wendy Atkins</h2>
+											<img class="img-responsive" src="{{ asset('images/board/wendy_akins.png')}}" alt="" />
+											<h2>Wendy Akins</h2>
 											<small>JUNIOR LIASON</small>
 										</div>
 									</div>
@@ -228,13 +228,12 @@
 
 								<div class="back">
 									<div class="box2 box-default">
-										<h4 class="nomargin">Wendy Atkins<</h4>
-										<small>JUNIOR LIASON</small>
+										<h4 class="nomargin">Wendy Akins</h4>
+										<small>COMMITTESS</small>
 
 										<hr />
-
-										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-
+										<small>Junior's Program</small><br/>
+										<small>Women's Program</small>
 										<hr />
 
 										<a href="#" class="social-icon social-icon-sm social-facebook">
@@ -265,7 +264,7 @@
 										<div class="box-icon-title">
 											<img class="img-responsive" src="{{ asset('images/board/julie_arnold.png')}}" alt="" />
 											<h2>Julienne Arnold</h2>
-											<small>MEMBER AT-LARGE</small>
+											<small>BOARD MEMBER</small>
 										</div>
 									</div>
 								</div>
@@ -273,7 +272,49 @@
 								<div class="back">
 									<div class="box2 box-default">
 										<h4 class="nomargin">Julienne Arnold</h4>
-										<small>MEMBER AT-LARGE</small>
+										<small>COMMITTESS</small>										
+										<hr />
+										<small>SOCIAL MEDIA</small><br/>
+										<small>WOMEN'S PROGRAM</small>
+										
+										<hr />
+										<a href="#" class="social-icon social-icon-sm social-facebook">
+											<i class="fa fa-facebook"></i>
+											<i class="fa fa-facebook"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-twitter">
+											<i class="fa fa-twitter"></i>
+											<i class="fa fa-twitter"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-linkedin">
+											<i class="fa fa-linkedin"></i>
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<!-- /item -->
+
+						<!-- item -->
+						<div class="col-md-3 col-sm-6">
+
+							<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+								<div class="front">
+									<div class="box1 box-default">
+										<div class="box-icon-title">
+											<img class="img-responsive" src="{{ asset('images/board/tom_d.png')}}" alt="" />
+											<h2>Tom Doughtry</h2>
+											<small>BOARD MEMBER</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="back">
+									<div class="box2 box-default">
+										<h4 class="nomargin">Tom Doughtry</h4>
+										<small>COMMITTESS</small>
 
 										<hr />
 
@@ -307,65 +348,21 @@
 								<div class="front">
 									<div class="box1 box-default">
 										<div class="box-icon-title">
-											<img class="img-responsive" src="{{ asset('images/board/julie_arnold.png')}}" alt="" />
-											<h2>Julienne Arnold</h2>
-											<small>MEMBER AT-LARGE</small>
+											<img class="img-responsive" src="{{ asset('images/board/dale_gosser.png')}}" alt="" />
+											<h2>Dale Gosser</h2>
+											<small>BOARD MEMBER</small>
 										</div>
 									</div>
 								</div>
 
 								<div class="back">
 									<div class="box2 box-default">
-										<h4 class="nomargin">Julienne Arnold</h4>
-										<small>MEMBER AT-LARGE</small>
+										<h4 class="nomargin">Dale Gosser</h4>
+										<small>COMMITTESS</small>
 
 										<hr />
-
-										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-
-										<hr />
-
-										<a href="#" class="social-icon social-icon-sm social-facebook">
-											<i class="fa fa-facebook"></i>
-											<i class="fa fa-facebook"></i>
-										</a>
-										<a href="#" class="social-icon social-icon-sm social-twitter">
-											<i class="fa fa-twitter"></i>
-											<i class="fa fa-twitter"></i>
-										</a>
-										<a href="#" class="social-icon social-icon-sm social-linkedin">
-											<i class="fa fa-linkedin"></i>
-											<i class="fa fa-linkedin"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="col-md-3 col-sm-6">
-
-							<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-								<div class="front">
-									<div class="box1 box-default">
-										<div class="box-icon-title">
-											<img class="img-responsive" src="{{ asset('images/board/julie_arnold.png')}}" alt="" />
-											<h2>Julienne Arnold</h2>
-											<small>MEMBER AT-LARGE</small>
-										</div>
-									</div>
-								</div>
-
-								<div class="back">
-									<div class="box2 box-default">
-										<h4 class="nomargin">Julienne Arnold</h4>
-										<small>MEMBER AT-LARGE</small>
-
-										<hr />
-
-										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+										<small>SOCIAL MEDIA</small></br>
+										<small></small></br>
 
 										<hr />
 
@@ -399,17 +396,17 @@
 								<div class="front">
 									<div class="box1 box-default">
 										<div class="box-icon-title">
-											<img class="img-responsive" src="{{ asset('images/board/julie_arnold.png')}}" alt="" />
-											<h2>Julienne Arnold</h2>
-											<small>MEMBER AT-LARGE</small>
+											<img class="img-responsive" src="{{ asset('images/board/lance_gilliam.png')}}" alt="" />
+											<h2>Lance Gilliam</h2>
+											<small>BOARD MEMBER</small>
 										</div>
 									</div>
 								</div>
 
 								<div class="back">
 									<div class="box2 box-default">
-										<h4 class="nomargin">Julienne Arnold</h4>
-										<small>MEMBER AT-LARGE</small>
+										<h4 class="nomargin">Lance Gilliam</h4>
+										<small>BOARD MEMBER</small>
 
 										<hr />
 
@@ -443,17 +440,17 @@
 								<div class="front">
 									<div class="box1 box-default">
 										<div class="box-icon-title">
-											<img class="img-responsive" src="{{ asset('images/board/julie_arnold.png')}}" alt="" />
-											<h2>Julienne Arnold</h2>
-											<small>MEMBER AT-LARGE</small>
+											<img class="img-responsive" src="{{ asset('images/board/john_housely.png')}}" alt="" />
+											<h2>John Housely</h2>
+											<small>BOARD MEMBER</small>
 										</div>
 									</div>
 								</div>
 
 								<div class="back">
 									<div class="box2 box-default">
-										<h4 class="nomargin">Julienne Arnold</h4>
-										<small>MEMBER AT-LARGE</small>
+										<h4 class="nomargin">John Housely</h4>
+										<small>BOARD MEMBER</small>
 
 										<hr />
 
@@ -487,17 +484,17 @@
 								<div class="front">
 									<div class="box1 box-default">
 										<div class="box-icon-title">
-											<img class="img-responsive" src="{{ asset('images/board/julie_arnold.png')}}" alt="" />
-											<h2>Julienne Arnold</h2>
-											<small>MEMBER AT-LARGE</small>
+											<img class="img-responsive" src="{{ asset('images/board/mike_sorensom.png')}}" alt="" />
+											<h2>Mike Sorenson</h2>
+											<small>BOARD MEMBER</small>
 										</div>
 									</div>
 								</div>
 
 								<div class="back">
 									<div class="box2 box-default">
-										<h4 class="nomargin">Julienne Arnold</h4>
-										<small>MEMBER AT-LARGE</small>
+										<h4 class="nomargin">Mike Sorenson</h4>
+										<small>BOARD MEMBER</small>
 
 										<hr />
 
@@ -531,17 +528,17 @@
 								<div class="front">
 									<div class="box1 box-default">
 										<div class="box-icon-title">
-											<img class="img-responsive" src="{{ asset('images/board/julie_arnold.png')}}" alt="" />
-											<h2>Julienne Arnold</h2>
-											<small>MEMBER AT-LARGE</small>
+											<img class="img-responsive" src="{{ asset('images/board/brad_g.png')}}" alt="" />
+											<h2>Brad Giezentanner</h2>
+											<small>BOARD MEMBER</small>
 										</div>
 									</div>
 								</div>
 
 								<div class="back">
 									<div class="box2 box-default">
-										<h4 class="nomargin">Julienne Arnold</h4>
-										<small>MEMBER AT-LARGE</small>
+										<h4 class="nomargin">Brad Giezentanner</h4>
+										<small>BOARD MEMBER</small>
 
 										<hr />
 
@@ -569,7 +566,6 @@
 						<!-- /item -->
 					</div>
 
-
 				</div>
 			</section>
 			<!-- / -->
@@ -582,8 +578,8 @@
 					<div class="row">
 
 						<div class="col-md-9"><!-- title + shortdesc -->
-							<h3>Want to be part of our team?</h3>
-							<p>If so, click to join now, and be part of our dynamic team!</p>
+							<h3>Want to volunteer to work on a committee?</h3>
+							<p>If so, click to sign up, and be part of our dynamic team!</p>
 						</div>
 
 						<div class="col-md-3"><!-- button -->
