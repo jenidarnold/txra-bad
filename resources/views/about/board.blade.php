@@ -20,9 +20,6 @@
 			</section>
 			<!-- /PAGE HEADER -->
 
-
-
-
 			<!-- -->
 			<section>
 				<div class="container">
@@ -441,7 +438,7 @@
 									<div class="box1 box-default">
 										<div class="box-icon-title">
 											<img class="img-responsive" src="{{ asset('images/board/john_housely.png')}}" alt="" />
-											<h2>John Housely</h2>
+											<h2>John O'Niel</h2>
 											<small>BOARD MEMBER</small>
 										</div>
 									</div>
@@ -449,7 +446,7 @@
 
 								<div class="back">
 									<div class="box2 box-default">
-										<h4 class="nomargin">John Housely</h4>
+										<h4 class="nomargin">John O'Niel</h4>
 										<small>BOARD MEMBER</small>
 
 										<hr />

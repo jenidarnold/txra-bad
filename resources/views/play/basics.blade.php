@@ -5,6 +5,20 @@
 @stop
 @section('content')
 <section>
+	<section class="page-header">
+		<div class="container">
+			<h1>THE BASICS</h1>
+		
+			<!-- breadcrumbs -->
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">PLAY</a></li>
+				<li class="active">BASICS</li>
+			</ol><!-- /breadcrumbs -->
+
+		</div>
+	</section>
+	<!-- /PAGE HEADER -->
 	<div class="container">
 
 		<div class="row">
