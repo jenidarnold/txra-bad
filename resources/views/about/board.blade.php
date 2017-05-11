@@ -229,11 +229,11 @@
 								<div class="back">
 									<div class="box2 box-default">
 										<h4 class="nomargin">Wendy Akins</h4>
-										<small>COMMITTESS</small>
+										<small>COMMITTEES</small>
 
 										<hr />
-										<small>Junior's Program</small><br/>
-										<small>Women's Program</small>
+										<small>Junior's Committee (Chair)</small><br/>
+										<small>Women's Committee</small>
 										<hr />
 
 										<a href="#" class="social-icon social-icon-sm social-facebook">

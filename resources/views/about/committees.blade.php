@@ -31,48 +31,73 @@
 			</div>
 
 			<!-- FEATURED BOXES 3 -->
+			<div class="row">			
+				<div class="col-md-4 col-xs-6">
+					<div class="text-center">
+						<i class="ico-color ico-lg ico-rounded ico-hover fa fa-id-badge"></i>
+						<h4>Membership Committee</h4>
+						<p class="font-lato size-20">The committee develops new ideas to increase the number of TXRA members and to encourage enthusiastic participation </p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="text-center">
+						<i class="ico-color ico-lg ico-rounded ico-hover fa fa-child"></i>
+						<h4>Juniors' Committee</h4>
+						<p class="font-lato size-20"> Represents the younger section of the association’s membership.</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-6">
+					<div class="text-center">
+						<i class="ico-color ico-lg ico-rounded ico-hover fa fa-female"></i>
+						<h4>Women's Committee</h4>
+						<p class="font-lato size-20">Represents the female section of the association’s membership. Its goal is to build a strong community of female members.</p>
+					</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-4 col-xs-6">
 					<div class="text-center">
-						<i class="ico-color ico-lg ico-rounded ico-hover et-streetsign"></i>
-						<h4>Marketing</h4>
-						<p class="font-lato size-20">Donec id elit non mi porta gravida.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6">
-					<div class="text-center">
-						<i class="ico-color ico-lg ico-rounded ico-hover et-piechart"></i>
-						<h4>Membership & Recruitment</h4>
-						<p class="font-lato size-20">Donec id elit non mi porta gravida.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6">
-					<div class="text-center">
-						<i class="ico-color ico-lg ico-rounded ico-hover et-circle-compass"></i>
-						<h4>Women & Juniors Program</h4>
-						<p class="font-lato size-20">Donec id elit non mi porta gravida.</p>
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-xs-6">
-					<div class="text-center">
-						<i class="ico-color ico-lg ico-rounded ico-hover et-strategy"></i>
-						<h4>Fundraising</h4>
+						<i class="ico-color ico-lg ico-rounded ico-hover fa fa-line-chart"></i>
+						<h4>Marketing Committee</h4>
 						<p class="font-lato size-20">Donec id elit non mi porta gravida.</p>
 					</div>
 				</div>				
 				<div class="col-md-4 col-xs-6">
 					<div class="text-center">
-						<i class="ico-color ico-lg ico-rounded ico-hover et-trophy"></i>
-						<h4>Awards</h4>
-						<p class="font-lato size-20">Donec id elit non mi porta gravida.</p>
+						<i class="ico-color ico-lg ico-rounded ico-hover fa fa-usd"></i>
+						<h4>Fundraising Committee</h4>
+						<p class="font-lato size-20">Oversee the organization's overall fundraising</p>
+					</div>
+				</div>	
+				<div class="col-md-4 col-xs-6">
+					<div class="text-center">
+						<i class="ico-color ico-lg ico-rounded ico-hover fa fa-book"></i>
+						<h4>Referees Committee</h4>
+						<p class="font-lato size-20">Develops referees and oversees the Referee Certification Program</p>
+					</div>
+				</div>		
+			</div>
+			<div class="row">		
+				<div class="col-md-4 col-xs-6">
+					<div class="text-center">
+						<i class="ico-color ico-lg ico-rounded ico-hover fa fa-trophy"></i>
+						<h4>Awards Committee</h4>
+						<p class="font-lato size-20">Recognize performance, sportsmanship, and commitment to the sport of racquetball</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-6">
 					<div class="text-center">
-						<i class="ico-color ico-lg ico-rounded ico-hover et-tools"></i>
-						<h4>Elections</h4>
-						<p class="font-lato size-20">Donec id elit non mi porta gravida.</p>
+						<i class="ico-color ico-lg ico-rounded ico-hover fa fa-calendar-check-o "></i>
+						<h4>Special Events Committee</h4>
+						<p class="font-lato size-20">Creates memorable events to bring members together, celebrate successes of our members, and thank members for all they do</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="text-center">
+						<i class="ico-color ico-lg ico-rounded ico-hover fa fa-check-square-o"></i>
+						<h4>Elections Committee</h4>
+						<p class="font-lato size-20">Establish a slate of officers and conduct a fair and impartial election </p>
 					</div>
 				</div>
 
@@ -94,7 +119,7 @@
 						<!-- register form -->
 						<form class="nomargin sky-form boxed" action="#" method="post">
 							<header>
-								<i class="fa fa-users"></i> Sign Up
+								<i class="fa fa-users"></i> Sign Up to join the committee(s) you are interested in
 								</header>
 
 							<fieldset class="nomargin">	
@@ -122,23 +147,30 @@
 									<div class="col col-md-6">
 										<label class="select margin-bottom-10">
 											<select>
-												<option value="0" selected disabled>Are you a current TXRA Member?</option>
-												<option value="1">Yes</option>
-												<option value="2">No</option>
+												<option value="0" selected disabled>Are you a current TXRA member?</option>
+												<option value="1">Yes - I am a current TXRA member </option>
+												<option value="2">No - I am not yet a TXRA member</option>
 											</select>
 											<i></i>
 										</label>
 									</div>
 								</div>
-								<br/>
-								<h5>Check the Committee(s) you are interested in:</h5>
-								<div class="margin-top-30">
-									<label class="checkbox nomargin"><input class="checked-agree" type="checkbox" name="checkbox"><i></i>Juniors Program</label>
-									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Fundraising</label>
-									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Marketing</label>
-									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Awards</label>
-									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Membership</label>
+								<div class="margin-top-10 control-group col-md-4">
+									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Membership Committee</label>							
+									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Juniors Committee</label>
+									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Women's Committee</label>
 								</div>
+								<div class="margin-top-10 control-group col-md-4">
+									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Fundraising Committee</label>
+									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Marketing Committee</label>
+									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Rules/Referee Committee</label>					
+								</div>
+								<div class="margin-top-10 control-group col-md-4">
+									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Awards Committee</label>
+									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Events Committee</label>
+									<label class="checkbox nomargin"><input type="checkbox" name="checkbox"><i></i>Elections Committee</label>
+								</div>
+								
 							</fieldset>
 
 							<div class="row margin-bottom-20">

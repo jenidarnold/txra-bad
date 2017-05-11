@@ -6,7 +6,7 @@
 @section('content')
 <section>
 	<div class="container">
-	<a href="http://www.teamusa.org/USA-Racquetball/rules/">USAR Official Rules and Regulateions of Racquetball</a> 
+	<a href="http://www.teamusa.org/USA-Racquetball/rules/">USAR Official Rules and Regulations of Racquetball</a> 
 	</div>
 <section>
 @stop

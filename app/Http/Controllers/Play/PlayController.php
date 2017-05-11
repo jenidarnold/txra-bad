@@ -36,4 +36,14 @@ class PlayController extends Controller {
 	{
 		return view('play/rules');
 	}
+	
+	/**
+	 * Display instructors.
+	 *
+	 * @return Response
+	 */
+	public function instructors(Request $request)
+	{
+		return view('play/instructors');
+	}
 }

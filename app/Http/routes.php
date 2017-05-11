@@ -23,15 +23,19 @@ Route::get('/register', function () {
 
 Route::group(['namespace' => 'Play', 'prefix' =>'play'], function()
 {
-	// League
 	Route::get('basics', array('as' => 'play.basics', 'uses' => 'PlayController@basics'));	
 	Route::get('rules', array('as' => 'play.rules', 'uses' => 'PlayController@rules'));	
-	Route::get('tips', array('as' => 'play.tips', 'uses' => 'PlayController@tips'));	
+	Route::get('instructors', array('as' => 'play.instructors', 'uses' => 'PlayController@instructors'));	
+});
+
+Route::group(['namespace' => 'Programs', 'prefix' =>'members'], function()
+{
+	Route::get('juniors', array('as' => 'programs.juniors', 'uses' => 'JuniorsController@index'));	
+	Route::get('instructors', array('as' => 'programs.instructors', 'uses' => 'InstructorsController@index'));	
 });
 
 Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()
 {
-	// League
 	Route::get('listing', array('as' => 'members.listing', 'uses' => 'MemberController@index'));	
 	Route::get('profile', array('as' => 'members.show', 'uses' => 'MemberController@show'));	
 });
