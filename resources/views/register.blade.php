@@ -5,20 +5,20 @@
 @stop
 @section('content')		
 	<section class="page-header page-header-xs">
-				<div class="container">
+		<div class="container">
 
-					<h1>REGISTER</h1>
+			<h1>REGISTER</h1>
 
-					<!-- breadcrumbs -->
-					<ol class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Pages</a></li>
-						<li class="active">Register</li>
-					</ol><!-- /breadcrumbs -->
+			<!-- breadcrumbs -->
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Pages</a></li>
+				<li class="active">Register</li>
+			</ol><!-- /breadcrumbs -->
 
-				</div>
-			</section>
-			<!-- /PAGE HEADER -->
+		</div>
+	</section>
+	<!-- /PAGE HEADER -->
 
 
 

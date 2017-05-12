@@ -2,8 +2,7 @@
 @section('style')
     <style type="text/css">
     </style>
-@stop
-@section('content')		
+@stop	
 @section('content')		
 	<section class="page-header page-header-xs">
 		<div class="container">

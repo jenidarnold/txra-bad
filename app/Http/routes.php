@@ -28,10 +28,11 @@ Route::group(['namespace' => 'Play', 'prefix' =>'play'], function()
 	Route::get('instructors', array('as' => 'play.instructors', 'uses' => 'PlayController@instructors'));	
 });
 
-Route::group(['namespace' => 'Programs', 'prefix' =>'members'], function()
+Route::group(['namespace' => 'Programs', 'prefix' =>'programs'], function()
 {
 	Route::get('juniors', array('as' => 'programs.juniors', 'uses' => 'JuniorsController@index'));	
 	Route::get('instructors', array('as' => 'programs.instructors', 'uses' => 'InstructorsController@index'));	
+	Route::get('awards', array('as' => 'awards.index', 'uses' => 'AwardsController@index'));	
 });
 
 Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()

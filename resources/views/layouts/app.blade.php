@@ -318,6 +318,14 @@
 												<a class="dropdown-toggle" href="#">
 													ANNUAL AWARDS
 												</a>
+												<ul class="dropdown-menu">
+													<li>
+														<a href="{{route('awards.index')}}">Gallery</a>
+													</li>
+													<li>
+														<a href="{{route('awards.nominate')}}">Nominate</a>
+													</li>													
+												</ul>
 											</li>
 										</ul>
 									</li>
