@@ -47,3 +47,10 @@ Route::group(['namespace' => 'About', 'prefix' =>'about'], function()
 	Route::get('volunteer', array('as' => 'volunteer.index', 'uses' => 'LeadershipController@volunteer'));
 	Route::get('election/process', array('as' => 'election.index', 'uses' => 'LeadershipController@election'));	
 });
+
+Route::group(['namespace' => 'Forms', 'prefix' =>'forms'], function()
+{
+	Route::get('election/nominate', array('as' => 'election.nominate', 'uses' => 'NominationController@election'));	
+	Route::get('awards/nominate', array('as' => 'awards.nominate', 'uses' => 'NominationController@awards'));	
+
+});

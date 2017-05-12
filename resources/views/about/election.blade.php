@@ -14,7 +14,7 @@
     </style>
 @stop
 @section('content')		
-	<section class="page-header">
+	<section class="page-header page-header-xs">
 		<div class="container">
 			<br/>
 			<h1>TXRA Board of Directors Nomination and Election Process</h1>
@@ -75,7 +75,7 @@
 							<p>Current Board members are Michael Kaplan, Wendy Akins, Sean Arnold, Mike Griz, Lance Gilliam, Tom Doughtry, Dale Gosser, Mitchell McCoy, Julienne Arnold, Mike Sorenson, Brad Giezentanner, and John O'Niel.</p>
 
 							<p>
-								If you are interested in running or would like to nominate someone, contact Sean Arnold, TXRA Election Committee Director via email at: sean@arnold.net
+								If you are interested in running or would like to nominate someone, fill out the <a href='{{route('election.nominate')}}'>Nomination Form</a> or contact <a mailto:sean@arnold.net>Sean Arnold</a>, TXRA Election Committee Director.
 							</p>
 
 							<h2>ELECTION PROCESS</h2>

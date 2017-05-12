@@ -5,7 +5,7 @@
 @stop
 @section('content')		
 
-		<section class="page-header">
+		<section class="page-header page-header-xs">
 				<div class="container">
 
 					<h1>LOGIN</h1>
@@ -37,7 +37,7 @@
 							<form action="#" method="post" class="sky-form boxed">
 
 								<header class="size-18 margin-bottom-20">
-									I'm a returning customer
+									I'm a returning member
 								</header>
 								
 								<fieldset class="nomargin">

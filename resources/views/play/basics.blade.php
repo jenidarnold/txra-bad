@@ -5,7 +5,7 @@
 @stop
 @section('content')
 <section>
-	<section class="page-header">
+	<section class="page-header page-header-xs">
 		<div class="container">
 			<h1>THE BASICS</h1>
 		

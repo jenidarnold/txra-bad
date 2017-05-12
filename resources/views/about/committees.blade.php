@@ -4,7 +4,7 @@
     </style>
 @stop
 @section('content')		
-	<section class="page-header page-header-xs dark">
+	<section class="page-header page-header-xs">
 		<div class="container">
 
 			<h1>COMMITTEES</h1>

@@ -244,7 +244,6 @@
 												<ul class="dropdown-menu">
 													<li><a href="{{ route('play.basics')}}">THE BASICS</a></li>
 													<li><a href="{{ route('play.rules')}}">THE RULES</a></li>
-													<li><a href="{{ route('play.instructors')}}">INSTRUCTORS</a></li>
 												</ul>
 											</li>
 											<li class="dropdown">
@@ -263,15 +262,10 @@
 													IMPROVE YOUR GAME
 												</a>
 												<ul class="dropdown-menu">
-													<li><a href="page-services-1.html">INSTRUCTORS</a></li>
+													<li><a href="{{ route('play.instructors')}}">INSTRUCTORS</a></li>
 													<li><a href="page-services-2.html">CLINICS</a></li>
 												</ul>
-											</li>
-											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													TIPS
-												</a>
-											</li>
+											</li>											
 										</ul>
 									</li>
 									<li class="dropdown"><!-- PROGRAMS -->
@@ -339,12 +333,7 @@
 												<a class="dropdown-toggle" href="#">
 													RANKINGS
 												</a>
-											</li>
-											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													HEAD TO HEAD
-												</a>
-											</li>
+											</li>											
 											<li class="dropdown">
 												<a class="dropdown-toggle" href="#">
 													MEMBERSHIP
@@ -393,12 +382,7 @@
 										<a class="dropdown-toggle" href="#">
 											ABOUT
 										</a>
-										<ul class="dropdown-menu">
-											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													IN THE COMMUNITY
-												</a>
-											</li>
+										<ul class="dropdown-menu">											
 											<li class="dropdown">
 												<a class="dropdown-toggle" href="#">
 													LEADERSHIP
@@ -406,7 +390,6 @@
 												<ul class="dropdown-menu">
 													<li><a href="{{ route('board.index')}}">THE BOARD OF DIRECTORS</a></li>
 													<li><a href="{{ route('committees.index')}}" >COMMITTEES</a></li>
-													<li><a href="{{ route('volunteer.index')}}" >Volunteer</a></li>
 													<li><a href="{{ route('election.index')}}" >ELECTION PROCEDURE</a></li>
 												</ul>
 											</li>
@@ -414,15 +397,7 @@
 												<a class="dropdown-toggle" href="#">
 													MISSION & VALUES
 												</a>
-											</li>
-											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													NEWS
-												</a>
-												<ul class="dropdown-menu">
-													<li><a href="blog-smallimg-aside-left.html">LEFT SIDEBAR</a></li>													
-												</ul>
-											</li>
+											</li>											
 											<li class="dropdown">
 												<a class="dropdown-toggle" href="#">
 													FINANCIALS
