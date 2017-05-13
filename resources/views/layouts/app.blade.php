@@ -189,7 +189,7 @@
 							<img src="{{ asset('images/R.png')}}" style="height:30px;display:inline; opacity:.4" alt="" />
 							<img src="{{ asset('images/A.png')}}" style="height:30px;display:inline; opacity:.4" alt="" />
 						</a>
-
+					
 						<!--
 							Top Nav
 
@@ -300,8 +300,8 @@
 												</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													INSTRUCTORS PROGRAM
+												<a href="{{ route('programs.instructors')}}">
+													TEXAS INSTRUCTOR PROGRAM (TIP)
 												</a>
 											</li>
 											<li class="dropdown">

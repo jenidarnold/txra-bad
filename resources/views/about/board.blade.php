@@ -13,7 +13,7 @@
 					<ol class="breadcrumb">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Pages</a></li>
-						<li class="active">Team</li>
+						<li class="active">Board of Directors</li>
 					</ol><!-- /breadcrumbs -->
 
 				</div>
@@ -25,7 +25,7 @@
 				<div class="container">
 					
 					<p class="lead">The Board of the Texas Racquetball Association is committed to our members and the growth of racquetball in Texas from recreational play to international competition.</p>
-					<p>Our mission is to provide raccquetball opportunities for all levels of participation. We promote the sport with various marketing efforts. We expand our membership by recruiting at the grassroot level. We strive to provide many services our members</p>
+					<p>Our mission is to provide racquetball opportunities for all levels of participation. We promote the sport with various marketing efforts. We expand our membership by recruiting at the grassroot level. We strive to provide many services our members</p>
 
 					<div class="row">
 					

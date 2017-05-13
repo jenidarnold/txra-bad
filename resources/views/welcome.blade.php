@@ -17,14 +17,6 @@
 							<!-- background image -->
 							<img src="{{ asset('images/landing_men.jpg')}} " class="ls-bg" alt="Slide background"/>
 
-							<!--img class="ls-l" data-ls="
-								durationin:1500;
-								scalexin:0.8;
-								scaleyin:0.8;
-								scalexout:0.8;
-								scaleyout:0.8;"
-								style="top:40px;left:65%;white-space: nowrap;" src="assets/images/logo_txra.png" alt=""-->
-
 							<span class="ls-l" style="top:250px;left:100px;font-weight: 300;height:100px; width:80px;padding-right:10px;padding-left:10px;vertical-align:center;font-size:30px;line-height:50px;color:#ffffff;background:#071935;border-radius:0px;white-space: nowrap;" data-ls="durationin:1500;delayin:300;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
 								TEXAS <br/>
 							</span>

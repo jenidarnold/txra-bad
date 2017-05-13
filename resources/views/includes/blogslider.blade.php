@@ -25,22 +25,33 @@
 							<!-- OWL SLIDER -->
 							<div class="owl-carousel buttons-autohide controlls-over" data-plugin-options='{"singleItem": false, "items": 2, "autoPlay": 3000, "autoHeight": false, "navigation": false, "pagination": true, "transitionStyle":"fadeUp", "progressBar":"false"}'>
 								<div>
-									<img class="img-responsive" src="{{ asset('images/board/julie.png') }}" alt="">
+									<img class="img-responsive" src="{{ asset('images/board/julie_arnold.png') }}" alt="">
 								</div>
 								<div>
-									<img class="img-responsive" src="{{ asset('images/board/tomd.png') }}" alt="">
+									<img class="img-responsive" src="{{ asset('images/board/mike_griz.png') }}" alt="">
+								</div>					
+								<div>
+									<img class="img-responsive" src="{{ asset('images/board/tom_d.png') }}" alt="">
+								</div>
+																<div>
+									<img class="img-responsive" src="{{ asset('images/board/brad_g.png') }}" alt="">
+								</div>								
+								<div>
+									<img class="img-responsive" src="{{ asset('images/board/mitch_mcoy.png') }}" alt="">
 								</div>
 								<div>
-									<img class="img-responsive" src="{{ asset('images/board/brad.png') }}" alt="">
+									<img class="img-responsive" src="{{ asset('images/board/john_oneil.png') }}" alt="">
 								</div>
 								<div>
-									<img class="img-responsive" src="{{ asset('images/board/mikeg.png') }}" alt="">
+									<img class="img-responsive" src="{{ asset('images/board/michael_sorenson.png') }}" alt="">
 								</div>
 							</div>
 							<!-- /OWL SLIDER -->
 		
 
-							<p>The TXRA Board of Directors announced the results of the recent 2017 Board of Directors Election that filled the four vacancies. Congratulations to Julienne Arnold, Tom Doughty, Brad Giezentanner and Mike Grisz who were all elected by the members of the TXRA. We want to thank the outgoing Board members who also served and volunteered.</p>
+							<p>The TXRA Board of Directors announced the results of the recent 2017 Board of Directors Election that filled the four vacancies. Congratulations to Julienne Arnold, Tom Doughty, Brad Giezentanner and Mike Grisz who were all elected by the members of the TXRA. 
+							<p>Additional vacancies were filled by the Board. Mitchel McCoy, Michael Sorenson, & John O'Niel</p>
+							</p>We want to thank the outgoing Board members who also served and volunteered.</p>
 
 							<a href="blog-single-default.html" class="btn btn-reveal btn-default">
 								<i class="fa fa-plus"></i>
@@ -52,8 +63,8 @@
 
 						<!-- POST ITEM -->
 						<div class="blog-post-item col-md-4 col-sm-4">
-							<h2><a href="blog-single-default.html">PLAYER SPOTLIGHTS</a></h2>						
-							<h4><a href="blog-single-default.html">2017 ATHLETES OF THE YEAR</a></h4>
+							<h2><a href="#">PLAYER SPOTLIGHTS</a></h2>						
+							<h4><a href="{{route('awards.index')}}">2017 TXRA ANNUAL AWARDS</a></h4>
 
 							<ul class="blog-post-info list-inline">
 								<li>
@@ -71,12 +82,30 @@
 							</ul>
 							
 							<!-- OWL SLIDER -->
-							<div class="owl-carousel buttons-autohide controlls-over" data-plugin-options='{"items": 4, "autoPlay": 3000, "autoHeight": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "progressBar":"false"}'>
-								<div>
-									<img class="img-responsive" src="{{ asset('images/awards/2017/female.jpg') }}" alt="">
+							<div class="owl-carousel buttons-autohide controlls-over" data-plugin-options='{"items": 8, "autoPlay": 3000, "autoHeight": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "progressBar":"false"}'>
+								<div style='height:300px'>
+									<img class="img-responsive" src="{{ asset('images/awards/2017/bob_sullins.jpg') }}" alt="">
 								</div>
-								<div>
-									<img class="img-responsive" src="{{ asset('images/awards/2017/male.jpg') }}" alt="">
+								<div style='height:300px'>
+									<img class="img-responsive" src="{{ asset('images/awards/2017/ross_smith.jpg') }}" alt="">
+								</div>
+								<div style='height:300px'>							
+									<img class="img-responsive" src="{{ asset('images/awards/2017/richard_eisemann.jpg') }}" alt="">
+								</div>
+								<div style='height:300px'>
+									<img class="img-responsive" src="{{ asset('images/awards/2017/julienne_arnold.jpg') }}" alt="">
+								</div>
+								<div style='height:300px'>
+									<img class="img-responsive" src="{{ asset('images/awards/2017/brady_yelverton.jpg') }}" alt="">
+								</div>
+								<div style='height:300px'>
+									<img class="img-responsive" src="{{ asset('images/awards/2017/shane_diaz.jpg') }}" alt="">
+								</div>
+								<div style='height:300px'>
+									<img class="img-responsive" src="{{ asset('images/awards/2017/gael_trejo.jpeg') }}" alt="">
+								</div>
+								<div style='height:300px'>
+									<img class="img-responsive" src="{{ asset('images/awards/2017/leah_trejo.jpeg') }}" alt="">
 								</div>
 							</div>
 							<!-- /OWL SLIDER -->
@@ -84,7 +113,7 @@
 
 							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable There are many.</p>
 
-							<a href="blog-single-default.html" class="btn btn-reveal btn-default">
+							<a href="{{route('awards.index')}}" class="btn btn-reveal btn-default">
 								<i class="fa fa-plus"></i>
 								<span>Read More</span>
 							</a>
