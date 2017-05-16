@@ -4,10 +4,12 @@
 		<div class="row">
 
 			<div class="col-md-3">
-				<!-- Footer Logo -->
+				<!-- Footer Logo 
 				<img src="{{ asset('images/TX.png')}}" style="height:30px;display:inline; opacity:.7" alt="" />
 				<img src="{{ asset('images/R.png')}}" style="height:30px;display:inline; opacity:.7" alt="" />
 				<img src="{{ asset('images/A.png')}}" style="height:30px;display:inline; opacity:.7" alt="" />
+				-->
+				<img src="{{ asset('images/logo_2017.png')}}" style="height:100px;display:inline; opacity:.7" alt="" />
 
 				<!-- Small Description -->
 				<!--p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p-->

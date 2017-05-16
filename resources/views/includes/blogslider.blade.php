@@ -63,14 +63,14 @@
 
 						<!-- POST ITEM -->
 						<div class="blog-post-item col-md-4 col-sm-4">
-							<h2><a href="#">PLAYER SPOTLIGHTS</a></h2>						
+							<h2><a href="#">PLAYER SPOTLIGHT</a></h2>						
 							<h4><a href="{{route('awards.index')}}">2017 TXRA ANNUAL AWARDS</a></h4>
 
 							<ul class="blog-post-info list-inline">
 								<li>
 									<a href="#">
 										<i class="fa fa-clock-o"></i>
-										<span class="font-lato">June 29, 2015</span>
+										<span class="font-lato">April 24, 2017</span>
 									</a>
 								</li>
 								<li>
@@ -83,28 +83,28 @@
 							
 							<!-- OWL SLIDER -->
 							<div class="owl-carousel buttons-autohide controlls-over" data-plugin-options='{"items": 8, "autoPlay": 3000, "autoHeight": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "progressBar":"false"}'>
-								<div style='height:300px'>
+								<div>
 									<img class="img-responsive" src="{{ asset('images/awards/2017/bob_sullins.jpg') }}" alt="">
 								</div>
-								<div style='height:300px'>
-									<img class="img-responsive" src="{{ asset('images/awards/2017/ross_smith.jpg') }}" alt="">
+								<div>
+									<img class="img-responsive" src="{{ asset('images/awards/2017/ross_smith.png') }}" alt="">
 								</div>
-								<div style='height:300px'>							
+								<div>							
 									<img class="img-responsive" src="{{ asset('images/awards/2017/richard_eisemann.jpg') }}" alt="">
 								</div>
-								<div style='height:300px'>
+								<div>
 									<img class="img-responsive" src="{{ asset('images/awards/2017/julienne_arnold.jpg') }}" alt="">
 								</div>
-								<div style='height:300px'>
+								<div>
 									<img class="img-responsive" src="{{ asset('images/awards/2017/brady_yelverton.jpg') }}" alt="">
 								</div>
-								<div style='height:300px'>
+								<div>
 									<img class="img-responsive" src="{{ asset('images/awards/2017/shane_diaz.jpg') }}" alt="">
 								</div>
 								<div style='height:300px'>
 									<img class="img-responsive" src="{{ asset('images/awards/2017/gael_trejo.jpeg') }}" alt="">
 								</div>
-								<div style='height:300px'>
+								<div>
 									<img class="img-responsive" src="{{ asset('images/awards/2017/leah_trejo.jpeg') }}" alt="">
 								</div>
 							</div>

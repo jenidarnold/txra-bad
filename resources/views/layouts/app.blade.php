@@ -183,13 +183,15 @@
 						</ul>
 						<!-- /BUTTONS -->
 
-						<!-- Logo -->
+						<!-- Logo
 						<a class="logo pull-left" href="index.html">
 							<img src="{{ asset('images/TX.png')}}" style="height:30px;display:inline; opacity:.4" alt="" />
 							<img src="{{ asset('images/R.png')}}" style="height:30px;display:inline; opacity:.4" alt="" />
 							<img src="{{ asset('images/A.png')}}" style="height:30px;display:inline; opacity:.4" alt="" />
 						</a>
-					
+						-->
+						<img src="{{ asset('images/logo_2017.png')}}" style="height:100px;display:inline;" alt="" />
+
 						<!--
 							Top Nav
 
@@ -295,7 +297,7 @@
 												</ul>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
+												<a class="dropdown-toggle" href="{{ route('referee.index')}}">
 													REFEREE CERTIFICATION
 												</a>
 											</li>
