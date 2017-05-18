@@ -10,8 +10,8 @@
 
 					<!-- breadcrumbs -->
 					<ol class="breadcrumb breadcrumb-inverse">
-						<li><a href="{{ route('members.index')}} ">Members</a></li>
-						<li class="active">Felicia Doe</li>
+						<li><a href="{{ route('members.listing')}} ">Members</a></li>
+						<li class="active">Julienne Arnold</li>
 					</ol><!-- /breadcrumbs -->
 
 				</div>
@@ -29,9 +29,9 @@
 					<div class="col-lg-3 col-md-3 col-sm-4">
 					
 						<div class="thumbnail text-center">
-							<img src="assets/images/demo/people/460x700/8-min.jpg" alt="" />
-							<h2 class="size-18 margin-top-10 margin-bottom-0">Felica Doe</h2>
-							<h3 class="size-11 margin-top-0 margin-bottom-10 text-muted">DEVELOPER</h3>
+							<img src="{{ asset('images/members/192412/profile.png')}}" alt="" />
+							<h2 class="size-18 margin-top-10 margin-bottom-0">Julienne Arnold</h2>
+							<h3 class="size-11 margin-top-0 margin-bottom-10 text-muted">ELITE</h3>
 						</div>
 
 						<!-- completed -->
@@ -46,57 +46,98 @@
 						<!-- SIDE NAV -->
 						<ul class="side-nav list-group margin-bottom-60" id="sidebar-nav">
 							<li class="list-group-item active"><a href="page-profile.html"><i class="fa fa-eye"></i> PROFILE</a></li>
-							<li class="list-group-item"><a href="page-profile-projects.html"><i class="fa fa-tasks"></i> PROJECTS</a></li>
-							<li class="list-group-item"><a href="page-profile-comments.html"><i class="fa fa-comments-o"></i> COMMENTS</a></li>
-							<li class="list-group-item"><a href="page-profile-history.html"><i class="fa fa-history"></i> HISTORY</a></li>
-							<li class="list-group-item"><a href="page-profile-settings.html"><i class="fa fa-gears"></i> SETTINGS</a></li>
-
 							<li class="list-group-item list-toggle">   <!-- NOTE: "active" to be open on page load -->                
-								<a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-1">DROPDOWN EXAMPLE</a>
+								<a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-1"><i class="fa fa-calendar"></i> UPCOMING EVENTS</a></a>
 								<ul id="collapse-1" class="collapse"><!-- NOTE: "collapse in" to be open on page load -->
-									<li><a href="#"><i class="fa fa-angle-right"></i> SUMBENU 1</a></li>
 									<li>
-										<span class="badge badge-red">New</span>
-										<a href="#"><i class="fa fa-angle-right"></i> SUMBENU 2</a>
+										<span class="badge badge-black"><i class="fa fa-user"></i></span>
+										<span class="badge badge-red">6/03</span>
+
+										<a href="#"><i class="fa fa-angle-right"></i> Crazy Craig's Celeb...</a>
 									</li>
-									<li class="active"><a href="#"><i class="fa fa-angle-right"></i> SUMBENU 3</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i> SUMBENU 4</a></li>
+									<li>
+										<span class="badge badge-red">6/10</span>
+										<a href="#"><i class="fa fa-angle-right"></i> 2017 June Triple Crown</a>
+									</li>										
+									<li class="active">
+										<span class="badge badge-blue">7/08</span>
+										<a href="#"><i class="fa fa-angle-right"></i> 2017 July Triple Crown</a>
+									</li>
+									<li class="active">
+									    <span class="badge badge-black"><i class="fa fa-user"></i></span>
+										<span class="badge badge-blue">7/29</span>
+										<a href="#"><i class="fa fa-angle-right"></i> 3rd Annual ETCASA</a>
+									</li>
 								</ul>
 							</li>
+							<li class="list-group-item"><a href="page-profile-history.html"><i class="fa fa-history"></i> MATCH HISTORY</a></li>
+							<li class="list-group-item"><a href="page-profile-projects.html"><i class="fa fa-photo"></i> GALLERY</a></li>
+							<li class="list-group-item"><a href="page-profile-comments.html"><i class="fa fa-comments-o"></i> COMMENTS</a></li>
+							<li class="list-group-item"><a href="page-profile-settings.html"><i class="fa fa-gears"></i> SETTINGS</a></li>							
 						</ul>
 						<!-- /SIDE NAV -->
 
 
 						<!-- info -->
 						<div class="box-light margin-bottom-30"><!-- .box-light OR .box-light -->
+
+							<div class="text-muted margin-bottom-20">
+								<h2 class="size-18 text-muted margin-bottom-20"><b>About</b> Julienne Arnold</h2>
+								<ul class="list-unstyled nomargin">
+									<li class="margin-bottom-10"><i class="fa fa-home width-20 hidden-xs hidden-sm"></i> Carrollton, TX</li>
+									<li class="margin-bottom-10"><i class="fa fa-female width-20 hidden-xs hidden-sm"></i> Female</li>
+									<li class="margin-bottom-10"><i class="fa fa-twitter width-20 hidden-xs hidden-sm"></i> Elite</li>
+									<li class="margin-bottom-10"><i class="fa fa-twitter width-20 hidden-xs hidden-sm"></i> Gearbox</li>
+								</ul>
+							</div>
+
 							<div class="row margin-bottom-20">
-								<div class="col-md-4 col-sm-4 col-xs-4 text-center bold">
-									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">12</h2>
-									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">PROJECTS</h3>
+								<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">SINGLES RANKING</h3>
+								<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">3</h2>
+									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
 								</div>
 
-								<div class="col-md-4 col-sm-4 col-xs-4 text-center bold">
-									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">34</h2>
-									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TASKS</h3>
-								</div>
-
-								<div class="col-md-4 col-sm-4 col-xs-4 text-center bold">
-									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">32</h2>
-									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">UPLOADS</h3>
+								<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">79</h2>
+									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">NATIONAL</h3>
 								</div>
 							</div>
-							<!-- /info -->
+							<div class="row margin-bottom-20">
+								<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">DOUBLES RANKING</h3>
+								<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">11</h2>
+									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
+								</div>
+
+								<div class="col-md-6 col-sm-6 col-xs-4 text-center bold">
+									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">340</h2>
+									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">NATIONAL</h3>
+								</div>
+							</div>
+							<div class="row margin-bottom-20">
+								<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">MIXED DOUBLES RANKING</h3>
+								<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">11</h2>
+									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
+								</div>
+
+								<div class="col-md-6 col-sm-6 col-xs-4 text-center bold">
+									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">195</h2>
+									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">NATIONAL</h3>
+								</div>
+							</div>
 
 							<div class="text-muted">
-								<h2 class="size-18 text-muted margin-bottom-6"><b>About</b> Felicia Doe</h2>
-								<p>Lorem ipsum dolor sit amet diam nonummy nibh dolore.</p>
-								
+							
 								<ul class="list-unstyled nomargin">
 									<li class="margin-bottom-10"><i class="fa fa-globe width-20 hidden-xs hidden-sm"></i> <a href="http://www.stepofweb.com">www.stepofweb.com</a></li>
 									<li class="margin-bottom-10"><i class="fa fa-facebook width-20 hidden-xs hidden-sm"></i> <a href="http://www.facebook.com/stepofweb">stepofweb</a></li>
 									<li class="margin-bottom-10"><i class="fa fa-twitter width-20 hidden-xs hidden-sm"></i> <a href="http://www.twitter.com/stepofweb">@stepofweb</a></li>
 								</ul>
 							</div>
+							<!-- /info -->
+
 						
 						</div>
 
@@ -112,7 +153,7 @@
 								<div class="box1 noradius">
 									<div class="box-icon-title">
 										<i class="fa fa-user"></i>
-										<h2>Felica Doe &ndash; Profile</h2>
+										<h2>Julienne Arnold &ndash; Profile</h2>
 									</div>
 									<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
 								</div>
@@ -424,7 +465,7 @@
 
 						<form method="post" action="#" class="box-light margin-top-20"><!-- .box-light OR .box-dark -->
 							<div class="box-inner">
-								<h4 class="uppercase">LEAVE A MESSAGE TO <strong>FELICIA DOE</strong></h4>
+								<h4 class="uppercase">LEAVE A MESSAGE TO <strong>JULIENNE ARNOLD</strong></h4>
 								
 								<textarea required class="form-control word-count" data-maxlength="100" rows="5" placeholder="Type your message here..."></textarea>
 								<div class="text-muted text-right margin-top-3 size-12 margin-bottom-10">
