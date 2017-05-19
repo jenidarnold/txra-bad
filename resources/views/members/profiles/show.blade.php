@@ -89,44 +89,7 @@
 									<li class="margin-bottom-10"><i class="fa fa-twitter width-20 hidden-xs hidden-sm"></i> Elite</li>
 									<li class="margin-bottom-10"><i class="fa fa-twitter width-20 hidden-xs hidden-sm"></i> Gearbox</li>
 								</ul>
-							</div>
-
-							<div class="row margin-bottom-20">
-								<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">SINGLES RANKING</h3>
-								<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
-									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">3</h2>
-									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
-								</div>
-
-								<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
-									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">79</h2>
-									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">NATIONAL</h3>
-								</div>
-							</div>
-							<div class="row margin-bottom-20">
-								<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">DOUBLES RANKING</h3>
-								<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
-									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">11</h2>
-									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
-								</div>
-
-								<div class="col-md-6 col-sm-6 col-xs-4 text-center bold">
-									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">340</h2>
-									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">NATIONAL</h3>
-								</div>
-							</div>
-							<div class="row margin-bottom-20">
-								<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">MIXED DOUBLES RANKING</h3>
-								<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
-									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">11</h2>
-									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
-								</div>
-
-								<div class="col-md-6 col-sm-6 col-xs-4 text-center bold">
-									<h2 class="size-30 margin-top-10 margin-bottom-0 font-raleway">195</h2>
-									<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">NATIONAL</h3>
-								</div>
-							</div>
+							</div>						
 
 							<div class="text-muted">
 							
@@ -152,10 +115,47 @@
 							<div class="front">
 								<div class="box1 noradius">
 									<div class="box-icon-title">
-										<i class="fa fa-user"></i>
-										<h2>Julienne Arnold &ndash; Profile</h2>
+										<i class="fa fa-users"></i>
+										<h2>Julienne Arnold &ndash; RANKING</h2>
 									</div>
-									<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+									<div class="row">
+										<div class="col-md-4 col-sm-4 col-xs-4 margin-bottom-20">
+											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">SINGLES</h3>
+											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+												<h2 class="size-20 margin-top-10 margin-bottom-0 font-raleway countTo" data-speed="3000" >3</h2>
+												<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
+											</div>
+
+											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+												<h2 class="size-20 margin-top-10 margin-bottom-0 font-raleway countTo" data-speed="3000" >79</h2>
+												<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">NATIONAL</h3>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-4 col-xs-4 margin-bottom-20">
+											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">DOUBLES</h3>
+											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+												<h2 class="size-20 margin-top-10 margin-bottom-0 font-raleway countTo" data-speed="3000">14</h2>
+												<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
+											</div>
+
+											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+												<h2 class="size-20 margin-top-10 margin-bottom-0 font-raleway countTo" data-speed="3000">340</h2>
+												<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">NATIONAL</h3>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-4 col-xs-4 margin-bottom-20">
+											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">MIXED DOUBLES</h3>
+											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+												<h2 class="size-20 margin-top-10 margin-bottom-0 font-raleway countTo" data-speed="3000">11</h2>
+												<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
+											</div>
+
+											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
+												<h2 class="size-20 margin-top-10 margin-bottom-0 font-raleway countTo" data-speed="3000">195</h2>
+												<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">NATIONAL</h3>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 
@@ -180,39 +180,51 @@
 									<div class="box-inner">
 										<h3>
 											<a class="pull-right size-11 text-warning" href="#">VIEW ALL</a>
-											POPULAR POSTS
+											UPCOMING EVENTS
 										</h3>
 										<div class="height-250 slimscroll" data-always-visible="true" data-size="5px" data-position="right" data-opacity="0.4" disable-body-scroll="true">
 										
 											<div class="clearfix margin-bottom-10"><!-- post item -->
-												<img class="thumbnail pull-left" src="assets/images/demo/people/300x300/b-min.jpg" width="60" height="60" alt="" />
-												<h4 class="size-13 nomargin noborder nopadding"><a href="blog-single-default.html">Nullam Vitae Nibh Un Odiosters</a></h4>
-												<span class="size-11 text-muted">June 29, 2015</span>
+												<img class="thumbnail pull-left" src="http://www.r2sports.com/tourney/imageGallery/gallery/tourneyLogo/21674_normal.jpg" width="60" height="60" alt="" />
+												<h4 class="size-13 nomargin noborder nopadding"><a href="blog-single-default.html">Crazy Craig's Celebration Tournament</a></h4>
+												<span class="size-11 text-muted">June 3-4, 2017</span>
+												<br/>
+												<span class="size-11 text-muted">Round Rock, TX</span>
+												<br/>
+												<span class="badge badge-black"><i class="fa fa-user"></i></span>
+
 											</div><!-- /post item -->
 
 											<div class="clearfix margin-bottom-10"><!-- post item -->
-												<img class="thumbnail pull-left" src="assets/images/demo/people/300x300/6-min.jpg" width="60" height="60" alt="" />
-												<h4 class="size-13 nomargin noborder nopadding"><a href="blog-single-default.html">Nullam Vitae Nibh Un Odiosters</a></h4>
-												<span class="size-11 text-muted">June 29, 2015</span>
+												<img class="thumbnail pull-left" src="http://www.r2sports.com/tourney/imageGallery/gallery/tourneyLogo/16981_normal.jpg" width="60" height="60" alt="" />
+												<h4 class="size-13 nomargin noborder nopadding"><a href="blog-single-default.html">2017 June Triple Crown</a></h4>
+												<span class="size-11 text-muted">June 10-11,2017</span>
+												<br/>
+												<span class="size-11 text-muted">Arlington, TX</span>
+												<br/>
+												<span class="badge badge-black"><i class="fa fa-user"></i></span>
 											</div><!-- /post item -->
 
 											<div class="clearfix margin-bottom-10"><!-- post item -->
-												<img class="thumbnail pull-left" src="assets/images/demo/people/300x300/d-min.jpg" width="60" height="60" alt="" />
-												<h4 class="size-13 nomargin noborder nopadding"><a href="blog-single-default.html">Nullam Vitae Nibh Un Odiosters</a></h4>
-												<span class="size-11 text-muted">June 29, 2015</span>
+												<img class="thumbnail pull-left" src="http://www.r2sports.com/tourney/imageGallery/gallery/tourneyLogo/16981_normal.jpg" width="60" height="60" alt="" />
+												<h4 class="size-13 nomargin noborder nopadding"><a href="blog-single-default.html">2017 July Triple Crown</a></h4>
+												<span class="size-11 text-muted">July 8-9, 2017</span>
+												<br/>
+												<span class="size-11 text-muted">Arlington, TX</span>
+												<br/>
+												<span class="badge badge-black"><i class="fa fa-user"></i></span>
 											</div><!-- /post item -->
 
-											<div class="clearfix margin-bottom-10"><!-- post item -->
-												<img class="thumbnail pull-left" src="assets/images/demo/people/300x300/a-min.jpg" width="60" height="60" alt="" />
-												<h4 class="size-13 nomargin noborder nopadding"><a href="blog-single-default.html">Nullam Vitae Nibh Un Odiosters</a></h4>
-												<span class="size-11 text-muted">June 29, 2015</span>
+												<div class="clearfix margin-bottom-10"><!-- post item -->
+												<img class="thumbnail pull-left" src="http://www.r2sports.com/tourney/imageGallery/gallery/tourneyLogo/14366_normal.jpg" width="60" height="60" alt="" />
+												<h4 class="size-13 nomargin noborder nopadding"><a href="blog-single-default.html">3rd Annual ETCASA Shootout</a></h4>
+												<span class="size-11 text-muted">July 29, 2017</span>
+												<br/>
+												<span class="size-11 text-muted">Longview, TX</span>
+												<br/>
+												<span class="badge badge-black"><i class="fa fa-user"></i></span>
 											</div><!-- /post item -->
 
-											<div class="clearfix margin-bottom-10"><!-- post item -->
-												<img class="thumbnail pull-left" src="assets/images/demo/people/300x300/5-min.jpg" width="60" height="60" alt="" />
-												<h4 class="size-13 nomargin noborder nopadding"><a href="blog-single-default.html">Nullam Vitae Nibh Un Odiosters</a></h4>
-												<span class="size-11 text-muted">June 29, 2015</span>
-											</div><!-- /post item -->
 
 										</div>
 									</div>
@@ -221,7 +233,7 @@
 										<!-- INLINE SEARCH -->
 										<div class="inline-search clearfix">
 											<form action="#" method="get" class="widget_search nomargin">
-												<input type="search" placeholder="Search Post..." name="s" class="serch-input">
+												<input type="search" placeholder="Search Event..." name="s" class="serch-input">
 												<button type="submit">
 													<i class="fa fa-search"></i>
 												</button>
