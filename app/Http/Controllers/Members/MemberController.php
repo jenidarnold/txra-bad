@@ -33,9 +33,31 @@ class MemberController extends Controller {
 	 *
 	 * @return Response
 	 */
+	public function matches(Request $request)
+	{
+
+		return view('members/matches');
+	}
+
+	/**
+	 * Display member profile.
+	 *
+	 * @return Response
+	 */
 	public function show(Request $request)
 	{
 
 		return view('members/profiles/show');
+	}
+
+	/**
+	 * Display member rankings.
+	 *
+	 * @return Response
+	 */
+	public function rankings(Request $request)
+	{
+
+		return view('members/rankings');
 	}
 }

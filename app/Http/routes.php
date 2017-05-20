@@ -42,6 +42,7 @@ Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()
 	Route::get('listing', array('as' => 'members.listing', 'uses' => 'MemberController@index'));	
 	Route::get('profile', array('as' => 'members.show', 'uses' => 'MemberController@show'));	
 	Route::get('matches', array('as' => 'members.matches', 'uses' => 'MemberController@matches'));	
+	Route::get('rankings', array('as' => 'members.rankings', 'uses' => 'MemberController@rankings'));	
 });
 
 Route::group(['namespace' => 'About', 'prefix' =>'about'], function()
@@ -57,4 +58,8 @@ Route::group(['namespace' => 'Forms', 'prefix' =>'forms'], function()
 	Route::get('election/nominate', array('as' => 'election.nominate', 'uses' => 'NominationController@election'));	
 	Route::get('awards/nominate', array('as' => 'awards.nominate', 'uses' => 'NominationController@awards'));	
 
+});
+
+Route::get('/terms-of-use', function () {
+    return view('misc.termsofuse');
 });

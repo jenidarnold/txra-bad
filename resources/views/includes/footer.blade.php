@@ -97,7 +97,6 @@
 
 				</div>
 				<!-- /Social Icons -->
-
 			</div>
 
 		</div>
@@ -107,7 +106,7 @@
 	<div class="copyright">
 		<div class="container">
 			<ul class="pull-right nomargin list-inline mobile-block">
-				<li><a href="#">Terms &amp; Conditions</a></li>
+				<li><a href="{{ url('/terms-of-use')}}">Terms &amp; Conditions</a></li>
 				<li>&bull;</li>
 				<li><a href="#">Privacy</a></li>
 			</ul>

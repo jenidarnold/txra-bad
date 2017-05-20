@@ -298,13 +298,13 @@
 												</ul>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="{{ route('referee.index')}}">
+												<a class="dropdown" href="{{ route('referee.index')}}">
 													REFEREE CERTIFICATION
 												</a>
 											</li>
 											<li class="dropdown">
 												<a href="{{ route('programs.instructors')}}">
-													TEXAS INSTRUCTOR PROGRAM (TIP)
+													TEXAS INSTRUCTOR PROGRAM
 												</a>
 											</li>
 											<li class="dropdown">

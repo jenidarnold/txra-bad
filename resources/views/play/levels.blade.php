@@ -102,30 +102,30 @@
 							<!-- option list -->
 							<ul class="pricing-table list-unstyled">
 								<li>
-
+									Very basic knowledge of the rules of the game.
 								</li>
 								<li class="alternate">
+									Plays every once in a while. Not regularly.
 								</li>
 								<li>
-
+									May use tennis double-handed backhand shot. Does everything to try to avoid using the backhand.
 								</li>
 								<li class="alternate">
-								
+									Still skips a lot of open shots. The ones that stay in play typically end up in center court. 
 								</li>
 								<li>
-
+									Starting to broaden their horizons and learn some new shots.
 								</li>
 								<li class="alternate">
-
+									Still struggles to know where shots are going to end up. No idea what opponent is going to do.
 								</li>
 								<li>
-									
+									Still not much strategy involved in their game.
 								</li>
 								<li class="alternate">
-									
-								</li>
+									Starting to realize center court helps but doesn’t know how to make it happen.
 								<li>
-									
+									May start to consider league play.
 								</li>
 							</ul>
 							<!-- /option list -->
@@ -150,31 +150,32 @@
 							<!-- option list -->
 							<ul class="pricing-table list-unstyled">
 								<li>
-
+									Knows most of the rules of the game.
 								</li>
 								<li class="alternate">
+									Has been playing for a little while. Still not dedicated to playing but does find time to play a little more consistently.
 								</li>
 								<li>
-
+									Starting to develop a good forehand shot. Backhand is still unreliable but it’s starting to get some pop behind it.
 								</li>
 								<li class="alternate">
-								
+									Hitting the ball much harder. Kills the ball every now and then.
 								</li>
 								<li>
-
+									Basic knowledge. Tough time executing.
 								</li>
 								<li class="alternate">
-
+									Starting to figure out angles. Still doing a lot of chasing.
 								</li>
 								<li>
-									
+									Basic strategy.
 								</li>
 								<li class="alternate">
-									
+									Realizes importance of center court. Still struggles implementing it during gameplay.
 								</li>
 								<li>
-									
-								</li>
+									Plays in leagues. Considering tournament play.
+								</li>							
 							</ul>
 							<!-- /option list -->
 
@@ -199,30 +200,31 @@
 							<!-- option list -->
 							<ul class="pricing-table list-unstyled">
 								<li>
-
+									Knows all of the rules of the game.
 								</li>
 								<li class="alternate">
+									Regular on the court.
 								</li>
 								<li>
-
+									Forehand and backhand are getting closer to each other.
 								</li>
 								<li class="alternate">
-								
+									Still not 100% consistent but getting better.
 								</li>
 								<li>
-
+									Has multiple shots and serves in arsenal and starting to know when to use them.
 								</li>
 								<li class="alternate">
-
+									Understands where the ball is going. Still doesn’t grasp what opponent is doing to play them.
 								</li>
 								<li>
-									
+									Understands what to do. Has a tough time with consistency.
 								</li>
 								<li class="alternate">
-									
+									Knows to stay in center court. Trouble maintaining position.
 								</li>
 								<li>
-									
+									Actively trying to improve game. Plays in league. Some tournament play.
 								</li>
 							</ul>
 							<!-- /option list -->
@@ -248,30 +250,31 @@
 							<!-- option list -->
 							<ul class="pricing-table list-unstyled">
 								<li>
-
+									Knows all of the rules of the game.
 								</li>
 								<li class="alternate">
+									Plays regularly. One of the better players at the club.
 								</li>
 								<li>
-
+									Both are approaching “deadly”. Can kill ball either way more often than not.
 								</li>
 								<li class="alternate">
-								
+									Extremely accurate! Kills, re-kills, passing shots, ceiling balls all shot very well.
 								</li>
 								<li>
-
+									Has a large arsenal and knows when to use them.
 								</li>
 								<li class="alternate">
-
+									Seems to always be where the ball is going.
 								</li>
 								<li>
-									
+									Thinks on court and plays shots ahead.
 								</li>
 								<li class="alternate">
-									
+									Maintains court position. Shoots opponent out of position.
 								</li>
 								<li>
-									
+									Plays in multiple tournaments.
 								</li>
 							</ul>
 							<!-- /option list -->
@@ -296,7 +299,7 @@
 							<!-- option list -->
 							<ul class="pricing-table list-unstyled">
 								<li>
-
+									Knows all of the rules of the game.
 								</li>
 								<li class="alternate">
 								</li>
@@ -344,7 +347,7 @@
 							<!-- option list -->
 							<ul class="pricing-table list-unstyled">
 								<li>
-
+									Knows all of the rules of the game.
 								</li>
 								<li class="alternate">
 								</li>
@@ -393,7 +396,7 @@
 						<!-- option list -->
 							<ul class="pricing-table list-unstyled">
 								<li>
-
+									Knows all of the rules of the game.
 								</li>
 								<li class="alternate">
 								</li>
