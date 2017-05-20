@@ -18,7 +18,7 @@ class RefereeController extends Controller {
 	}
 	
 	/**
-	 * Display basics.
+	 * Display index.
 	 *
 	 * @return Response
 	 */
@@ -26,4 +26,25 @@ class RefereeController extends Controller {
 	{
 		return view('programs/referee/index');
 	}
+
+	/**
+	 * Display juniors.
+	 *
+	 * @return Response
+	 */
+	public function juniors(Request $request)
+	{
+		return view('programs/referee/juniors');
+	}
+
+	/**
+	 * Display adults.
+	 *
+	 * @return Response
+	 */
+	public function adults(Request $request)
+	{
+		return view('programs/referee/adults');
+	}
 }
+

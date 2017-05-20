@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('style')
 	<style>
-	 li {
+	 .mega-price-table li {
 	 	height: 80px;
 	 }
 	 .pricing-title {

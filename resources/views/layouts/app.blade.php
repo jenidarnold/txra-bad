@@ -156,7 +156,7 @@
 
 										<a href="#"><!-- cart item -->
 											<img src="{{ asset('images/demo/people/300x300/5-min.jpg') }}" width="45" height="45" alt="" />
-											<h6><span>2x</span> TRXRA Mug</h6>
+											<h6><span>2x</span> TXRA Mug</h6>
 											<small>$17.18</small>
 										</a><!-- /cart item -->
 
@@ -278,19 +278,17 @@
 										<ul class="dropdown-menu">
 											<li class="dropdown">
 												<a class="dropdown-toggle" href="#">
-													JUNIORS PROGRAM
+													JUNIOR PROGRAMS
 												</a>
 												<ul class="dropdown-menu">
 													<li>
-														<a href="#">ABOUT THE KIDS</a>
+														<a href="#">LOCAL PROGRAMS</a>
 													</li>
 													<li>
-														<a href="#">THE COACH</a>
+														<a href="#">STATE TEAM</a>
 													</li>
 													<li>
-														<a href="#">JOIN THE TEAM</a>
-													</li><li>
-														<a href="#">NEW & EVENTS</a>
+														<a href="#">NEWS & EVENTS</a>
 													</li>
 													<li>
 														<a href="#">DONATE</a>
@@ -341,7 +339,7 @@
 												<a href="{{route('members.listing')}}">PROFILES</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
+												<a class="dropdown" href="{{route('members.rankings')}}">
 													RANKINGS
 												</a>
 											</li>											
