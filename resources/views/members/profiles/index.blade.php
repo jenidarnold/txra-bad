@@ -7,7 +7,7 @@
 		<section class="page-header page-header-xs">
 				<div class="container">
 
-					<h1>MEMBER PROFILES</h1>
+					<h1>TXRA MEMBERS</h1>
 
 					<!-- breadcrumbs -->
 					<!--ol class="breadcrumb">
@@ -38,20 +38,21 @@
 					<div class="row mix-grid">
 						<!-- item -->
 						<div class="col-md-3 col-sm-3 mix female">
-
 							<div class="item-box">
+								<div class="item-box-desc">
+									<h3 class="text-center">Julienne Arnold</h3>
+								</div>
 								<figure>
 									<span class="item-hover">
-										<span class="overlay dark-5"></span>
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="{{ asset('images/awards/2017/female.jpg')}}" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="{{ asset('images/members/192412/profile.png')}}" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
 											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
+											<a class="ico-rounded" href="{{ route('members.show', 192412)}}">
 												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
 											</a>
 
@@ -61,28 +62,22 @@
 									<!-- carousel -->
 									<div class="owl-carousel buttons-autohide controlls-over nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"goDown"}'>
 										<div>
-											<img class="img-responsive" src="{{ asset('images/awards/2017/female.jpg')}}" width="600" height="399" alt="">
+											<img class="img-responsive" src="{{ asset('images/members/192412/profile.png')}}" width="600" height="399" alt="">
 										</div>
 										<div style="padding-top:40px">
 											<h4>Hometown: Carrollton, TX</h4>
+											<h4>Skill: Elite</h4>
 										</div>
 										<div style="padding-top:40px">
-											<h4>Singles Rank: #3</h4>
-											<h4>Doubles Rank: #25</h4>
-											<h4>Mixed Doubles Rank: #15</h4>
+											<h4>Texas Rank: #3</h4>
+											<h4>National Rank: #79</h4>
+											<h4>TX Doubles Rank: #25</h4>
+											<h4>TX Mixed Doubles Rank: #15</h4>
 										</div>
 									</div>
 									<!-- /carousel -->
 
 								</figure>
-
-								<div class="item-box-desc">
-									<h3>Julienne Arnold</h3>
-									<ul class="list-inline categories nomargin">
-										<li><a href="#">Carrollton, TX</a></li>
-									</ul>
-								</div>
-
 							</div>
 
 						</div>
@@ -91,13 +86,16 @@
 						<div class="col-md-3 col-sm-3 mix female">
 
 							<div class="item-box">
+								<div class="item-box-desc">
+									<h3 class="text-center">Jane Doe</h3>
+								</div>
 								<figure>
 									<span class="item-hover">
 										<span class="overlay dark-5"></span>
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="{{ asset('images/awards/2017/female.jpg')}}" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="{{ asset('images/members/1/profile.png')}}" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
@@ -112,7 +110,7 @@
 									<!-- carousel -->
 									<div class="owl-carousel buttons-autohide controlls-over nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"goDown"}'>
 										<div>
-											<img class="img-responsive" src="{{ asset('images/awards/2017/female.jpg')}}" width="600" height="399" alt="">
+											<img class="img-responsive" src="{{ asset('images/members/1/profile.png')}}" width="600" height="399" alt="">
 										</div>
 										<div style="padding-top:40px">
 											<h4>Hometown: Carrollton, TX</h4>
@@ -126,69 +124,10 @@
 									<!-- /carousel -->
 
 								</figure>
-
-								<div class="item-box-desc">
-									<h3>Julienne Arnold</h3>
-									<ul class="list-inline categories nomargin">
-										<li><a href="#">Carrollton, TX</a></li>
-									</ul>
-								</div>
-
 							</div>
 
 						</div>
-						<!-- /item -->
-											<!-- item -->
-						<div class="col-md-3 col-sm-3 mix female">
-
-							<div class="item-box">
-								<figure>
-									<span class="item-hover">
-										<span class="overlay dark-5"></span>
-										<span class="inner">
-
-											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="{{ asset('images/awards/2017/female.jpg')}}" data-plugin-options='{"type":"image"}'>
-												<span class="fa fa-plus size-20"></span>
-											</a>
-
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
-											</a>
-
-										</span>
-									</span>
-
-									<!-- carousel -->
-									<div class="owl-carousel buttons-autohide controlls-over nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"goDown"}'>
-										<div>
-											<img class="img-responsive" src="{{ asset('images/awards/2017/female.jpg')}}" width="600" height="399" alt="">
-										</div>
-										<div style="padding-top:40px">
-											<h4>Hometown: Carrollton, TX</h4>
-										</div>
-										<div style="padding-top:40px">
-											<h4>Singles Rank: #3</h4>
-											<h4>Doubles Rank: #25</h4>
-											<h4>Mixed Doubles Rank: #15</h4>
-										</div>
-									</div>
-									<!-- /carousel -->
-
-								</figure>
-
-								<div class="item-box-desc">
-									<h3>Julienne Arnold</h3>
-									<ul class="list-inline categories nomargin">
-										<li><a href="#">Carrollton, TX</a></li>
-									</ul>
-								</div>
-
-							</div>
-
-						</div>
-						<!-- /item -->
+						<!-- /item -->						
 					</div>
 
 

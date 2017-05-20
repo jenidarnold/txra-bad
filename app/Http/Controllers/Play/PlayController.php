@@ -37,6 +37,17 @@ class PlayController extends Controller {
 		return view('play/rules');
 	}
 	
+
+	/**
+	 * Display skill levels.
+	 *
+	 * @return Response
+	 */
+	public function levels(Request $request)
+	{
+		return view('play/levels');
+	}
+	
 	/**
 	 * Display instructors.
 	 *

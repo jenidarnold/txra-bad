@@ -25,6 +25,7 @@ Route::group(['namespace' => 'Play', 'prefix' =>'play'], function()
 {
 	Route::get('basics', array('as' => 'play.basics', 'uses' => 'PlayController@basics'));	
 	Route::get('rules', array('as' => 'play.rules', 'uses' => 'PlayController@rules'));	
+	Route::get('levels', array('as' => 'play.levels', 'uses' => 'PlayController@levels'));	
 	Route::get('instructors', array('as' => 'play.instructors', 'uses' => 'PlayController@instructors'));	
 });
 
@@ -40,6 +41,7 @@ Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()
 {
 	Route::get('listing', array('as' => 'members.listing', 'uses' => 'MemberController@index'));	
 	Route::get('profile', array('as' => 'members.show', 'uses' => 'MemberController@show'));	
+	Route::get('matches', array('as' => 'members.matches', 'uses' => 'MemberController@matches'));	
 });
 
 Route::group(['namespace' => 'About', 'prefix' =>'about'], function()

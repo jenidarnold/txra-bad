@@ -70,6 +70,7 @@
 									</li>
 								</ul>
 							</li>
+							<li class="list-group-item"><a href="page-profile-history.html"><i class="fa fa-trophy"></i> ACHIEVEMENTS</a></li>
 							<li class="list-group-item"><a href="page-profile-history.html"><i class="fa fa-history"></i> MATCH HISTORY</a></li>
 							<li class="list-group-item"><a href="page-profile-projects.html"><i class="fa fa-photo"></i> GALLERY</a></li>
 							<li class="list-group-item"><a href="page-profile-comments.html"><i class="fa fa-comments-o"></i> COMMENTS</a></li>
@@ -118,7 +119,7 @@
 										<i class="fa fa-users"></i>
 										<h2>Julienne Arnold &ndash; RANKING</h2>
 									</div>
-									<div class="row">
+									<div class="row margin-top-10">
 										<div class="col-md-4 col-sm-4 col-xs-4 margin-bottom-20">
 											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">SINGLES</h3>
 											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
