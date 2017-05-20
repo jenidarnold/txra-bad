@@ -11,18 +11,45 @@
 
 @stop
 @section('content')		
+<!-- 
+	PAGE HEADER 
+	
+	CLASSES:
+		.page-header-xs	= 20px margins
+		.page-header-md	= 50px margins
+		.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+		.dark		= dark page header
+		.light		= light page header
+-->
+<section class="page-header parallax parallax-3" style="background-image:url('assets/images/demo/1200x800/17-min.jpg')">
+	<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
 
+	<div class="container">
+
+		<h1>Skill Levels</h1>
+		<span class="font-lato size-18 weight-300">a breakdown of the difference in skill level</span>
+
+		<!-- breadcrumbs -->
+		<ol class="breadcrumb">
+			<li><a href="/">Home</a></li>
+			<li><a href="/play/basics">Play</a></li>
+			<li class="active">Skill Levels</li>
+		</ol><!-- /breadcrumbs -->
+
+	</div>
+</section>
+<!-- /PAGE HEADER -->
 <div class="container">
 
   <!--  Reference http://bestracquetball.com/divisions-or-levels/  -->
 
 	<div class="row mega-price-table margin-bottom-60">
-		<p class="text-muted"> a breakdown of the difference in skill level.</p>
 		
 		<div class="col-md-2 col-sm-6 hidden-sm hidden-xs pricing-desc">
 
 			<div class="pricing-title">
-				<h3>Skill Levels</h3>			
+				<h3>Levels</h3>			
 			</div>
 
 			<ul class="list-unstyled">

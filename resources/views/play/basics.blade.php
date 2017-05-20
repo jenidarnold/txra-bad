@@ -1,137 +1,151 @@
 @extends('layouts.app')
 @section('style')
     <style type="text/css">
+    .info-bar p {
+    	text-align: left;
+    	color: #666;
+    }
+    .info-bar h3 {
+    	text-align: center;
+    }
     </style>
 @stop
 @section('content')
-<section>
-	<section class="page-header page-header-xs">
-		<div class="container">
-			<h1>THE BASICS</h1>
-		
-			<!-- breadcrumbs -->
-			<ol class="breadcrumb">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">PLAY</a></li>
-				<li class="active">BASICS</li>
-			</ol><!-- /breadcrumbs -->
-
-		</div>
+<section class="page-header parallax parallax-3" style="background-image:url({{ asset('images/court/ymca_bandw_crop9.jpg') }}) ">
+	<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+	<div class="container">
+		<h1>THE BASICS</h1>
+	
+		<!-- breadcrumbs -->
+		<ol class="breadcrumb">
+			<li><a href="/">Home</a></li>
+			<li><a href="/play">Play</a></li>
+			<li class="active">Basics</li>
+		</ol><!-- /breadcrumbs -->
+	</div>
 	</section>
 	<!-- /PAGE HEADER -->
-	<div class="container">
 
-		<div class="row">
+	<section>
+		<div class="container">
 
-			<!-- LEFT -->
-			<div class="col-md-9">
-
-				<img class="pull-left" src="{{ asset('images/play/court.jpg')}}" alt="" />
-
-				<div class="heading-title">
-					<h2>HOW  TO PLAY RACQUETBALL</h2>
-				</div>
-
-				<p>Racquetball is easy and fun to play, although it may take a few games to figure out the basics such as scoring, serving and some simple rules. Racquetball can be played indoors and outdoors, but most Texas courts can be found indoors at private/public health clubs, and all sorts of local recreation centers. The game can be played as 'singles', between two players, or 'doubles' between two teams of two players each. There is also a game, 'cut-throat' which involves three players. Each player has his/her own racquet and one ball is used.
-				</p>
-				<p>Matches are typically two games to 15 points and a tie-breaker to 11 points if needed. For the basics let's get started with a few so you can enjoy your racquetball experience. The serve-Play begins with the server standing in the Service Zone and serving the ball to his/her opponent(s) who is standing in the Receiving Zone. To serve, the server must first bounce the ball and then strike it with the racquet.
-				</p>
-
-				<div class="row margin-top-60">
-
-					<div class="col-sm-6">
-						<div class="heading-title heading-border-bottom heading-color">
-							<h3>Racquetball Equipment</h3>
-						</div>
-
-						<p>To play a game of racquetball you only need a few things to get started. Most racquetball equipment and accessories can be purchased seperately or starter kits can be purchased for about $30.
-							<ul>
-								<li>Racquet (Cost anywhere from $20-$200, depends on budget, and willingness to pay for feel and technology.) </li>
-								<li>Eyewear (Recommended and important, helps reduce the risk of injury if you are hit in the eye.)</li>
-								<li>Ball (Balls come in different colors such as blue, green, lavender and black. Any color will do.) </li>
-								<li>Glove. (Optional, this will help you keep a firm grip on the racquet during those fast rallies.)</li>
-								<li>Shoes (Any type of indoor court or tennis shoe, there are shoes designed specifically for racquetball.)</li>
-							</ul>
-						</p>
-					</div>
-
-					<div class="col-sm-6">
-						<div class="heading-title heading-border-bottom heading-color">
-							<h3>Fitness Facts</h3>
-						</div>
-						<p></p>
-					</div>
-
-				</div>
-
-
-				<div class="margin-top-60">
-
-					<div class="heading-title heading-border-bottom heading-color text-center">
-						<h3>Why  Play Racquetball?</h3>
-					</div>
-					<p></p>
-
-					<div class="row">
-						<div class="col-sm-4">
-							<ul class="list-unstyled list-icons">
-								
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /LEFT -->
-
-			<!-- RIGHT -->
-			<div class="col-md-3">
-
-				<div class="box-static box-border-top margin-bottom-60">
-					<div class="box-title">
-						<h4>Additional Info</h4>
-					</div>
-					<ul class="list-unstyled list-icons padding-15 nopadding-bottom">
-						<li class="margin-bottom-20">
-							<i class="fa fa-check text-success size-18"></i>
-							<span class="block bold size-18">Digital Magazine</span>
-							<small>lorem ipsum dolor sit amet</small>
-						</li>					
+					<h1 class="blog-post-title">HOW TO PLAY RACQUETBALL</h1>
+					<ul class="blog-post-info list-inline">
+						<li>
+							<a href="#">
+								<i class="fa fa-clock-o"></i> 
+								<span class="font-lato">June 29, 2017</span>
+							</a>
+						</li>								
+						<li>
+							<a href="#">
+								<i class="fa fa-user"></i> 
+								<span class="font-lato">John Doe</span>
+							</a>
+						</li>
 					</ul>
 
-					<hr />
-				</div>
+					<img class="img-responsive pull-right" src="{{asset('images/play/court.jpg')}}" width="300" alt="zones" />
+					
 
-				<hr />
+					<!-- article content -->
+					<p>Racquetball is easy and fun to play, although it may take a few games to figure out the basics such as scoring, serving and some simple rules. Racquetball can be played indoors and outdoors, but most Texas courts can be found indoors at private/public health clubs, and all sorts of local recreation centers. The game can be played as 'singles', between two players, or 'doubles' between two teams of two players each. There is also a game, 'cut-throat' which involves three players. Each player has his/her own racquet and one ball is used.
+					</p>
+					<p>Matches are typically two games to 15 points and a tie-breaker to 11 points if needed. For the basics let's get started with a few so you can enjoy your racquetball experience. The serve-Play begins with the server standing in the Service Zone and serving the ball to his/her opponent(s) who is standing in the Receiving Zone. To serve, the server must first bounce the ball and then strike it with the racquet.
+					</p>
+		</div>
+	</section>
 
 
-				<!-- SOCIAL ICONS -->
-				<div class="hidden-xs text-center">
-					<a href="#" class="social-icon social-icon-border social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
-						<i class="icon-facebook"></i>
-						<i class="icon-facebook"></i>
-					</a>
+	<section>
+		<div class="container">
+			<h3>RACQUETBALL EQUIPTMENT</h3>
+			
+			<!-- 
+				INFO BAR 
+				inside .container
+			-->
+			<div class="info-bar info-bar- info-bar-bordered">
+				<div class="container">
+					<div class="row">					
+						<div class="col-sm-5th">
+							<img class="img-responsive" src="{{ asset('images/equipment/racquet_gb.jpg')}}" alt="">	
+							<h3>RACQUET</h3>
+							<p>Cost anywhere from $20-$200. Depends on budget, and willingness to pay for feel and technology.</p>	
+						</div>
 
-					<a href="#" class="social-icon social-icon-border social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
-						<i class="icon-twitter"></i>
-						<i class="icon-twitter"></i>
-					</a>
+						<div class="col-sm-5th">
+							<img class="img-responsive" src="{{ asset('images/equipment/eyewear.jpg')}}" alt="">	
+							<h3>EYEWEAR</h3>
+							<p>Recommended and important, helps reduce the risk of injury if you are hit in the eye</p>		
+						</div>
 
-					<a href="#" class="social-icon social-icon-border social-gplus" data-toggle="tooltip" data-placement="top" title="Google plus">
-						<i class="icon-gplus"></i>
-						<i class="icon-gplus"></i>
-					</a>
+						<div class="col-sm-5th">
+							<img class="img-responsive" src="{{ asset('images/equipment/balls.jpg')}}" alt="">	
+							<h3>BALL</h3>
+							<p>Balls come in different colors such as blue, green, lavender and black. Any color will do.</p>
+						</div>
 
-					<a href="#" class="social-icon social-icon-border social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
-						<i class="icon-linkedin"></i>
-						<i class="icon-linkedin"></i>
-					</a>
+						<div class="col-sm-5th">
+							<img class="img-responsive" src="{{ asset('images/equipment/glove.jpg')}}" alt="">	
+							<h3>GLOVE</h3>
+							<p>Optional, this will help you keep a firm grip on the racquet during those fast rallies.</p>
+						</div>
+
+						<div class="col-sm-5th">
+							<img class="img-responsive" src="{{ asset('images/equipment/shoes.jpg')}}" alt="">	
+							<h3>SHOES</h3>
+							<p>Any type of indoor court or tennis shoe, there are shoes designed specifically for racquetball</p>
+						</div>
+
+					
+					</div>
+
 				</div>
 			</div>
-			<!-- /RIGHT -->
+			<!-- /INFO BAR -->		
 
-		</div>
+			<!-- SHARE POST -->
+			<div class="row">
+				<div class="col-md-4 col-md-offset-8">
+					<div class="clearfix margin-top-30">
 
-	</div>
+						<a href="#" class="social-icon social-icon-sm social-icon-transparent social-facebook pull-right" data-toggle="tooltip" data-placement="top" title="Facebook">
+							<i class="icon-facebook"></i>
+							<i class="icon-facebook"></i>
+						</a>
+
+						<a href="#" class="social-icon social-icon-sm social-icon-transparent social-twitter pull-right" data-toggle="tooltip" data-placement="top" title="Twitter">
+							<i class="icon-twitter"></i>
+							<i class="icon-twitter"></i>
+						</a>
+
+						<a href="#" class="social-icon social-icon-sm social-icon-transparent social-gplus pull-right" data-toggle="tooltip" data-placement="top" title="Google plus">
+							<i class="icon-gplus"></i>
+							<i class="icon-gplus"></i>
+						</a>
+
+						<a href="#" class="social-icon social-icon-sm social-icon-transparent social-linkedin pull-right" data-toggle="tooltip" data-placement="top" title="Linkedin">
+							<i class="icon-linkedin"></i>
+							<i class="icon-linkedin"></i>
+						</a>
+
+						<a href="#" class="social-icon social-icon-sm social-icon-transparent social-pinterest pull-right" data-toggle="tooltip" data-placement="top" title="Pinterest">
+							<i class="icon-pinterest"></i>
+							<i class="icon-pinterest"></i>
+						</a>
+
+						<a href="#" class="social-icon social-icon-sm social-icon-transparent social-call pull-right" data-toggle="tooltip" data-placement="top" title="Email">
+							<i class="icon-email3"></i>
+							<i class="icon-email3"></i>
+						</a>
+					</div>
+				</div>	
+			</div>
+			<!-- /SHARE POST -->					
+		</div>			
+	</section>
+
 </section>
 <!-- / -->
 @stop

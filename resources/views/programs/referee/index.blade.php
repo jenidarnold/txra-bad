@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('style')
     <style type="text/css">
+    	h5 {
+    		color: #0F597B !important;
+    	}
     </style>
 @stop
 @section('content')		
@@ -97,7 +100,7 @@
 										(minimum score of 86), attend either a rules or case study clinic, pass a match assessment
 										(minimum score of 90), and pay $10.00.
 									</ul>
-									
+
 									<h4>Pending Certification</h4>
 									<ul class="list-group">
 										<li class="list-group-item"> Pass the written test with a score of at least 86.
