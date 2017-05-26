@@ -44,7 +44,9 @@ Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()
 	Route::get('listing', array('as' => 'members.listing', 'uses' => 'MemberController@index'));	
 	Route::get('profile', array('as' => 'members.show', 'uses' => 'MemberController@show'));	
 	Route::get('matches', array('as' => 'members.matches', 'uses' => 'MemberController@matches'));	
-	Route::get('rankings', array('as' => 'members.rankings', 'uses' => 'MemberController@rankings'));	
+	Route::get('rankings', array('as' => 'members.rankings', 'uses' => 'MemberController@rankings'));
+	Route::get('gallery', array('as' => 'members.gallery.index', 'uses' => 'GalleryController@index'));
+	Route::put('addphoto', array('as' => 'members.gallery.create', 'uses' => 'GalleryController@create'));		
 });
 
 Route::group(['namespace' => 'About', 'prefix' =>'about'], function()

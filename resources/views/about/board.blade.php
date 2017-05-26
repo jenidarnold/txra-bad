@@ -124,8 +124,8 @@
 								<div class="front">
 									<div class="box1 box-default">
 										<div class="box-icon-title">
-											<img class="img-responsive" src="{{ asset('images/board/mike_griz.png')}}" alt="" />
-											<h2>Mike Griz</h2>
+											<img class="img-responsive" src="{{ asset('images/board/mike_grisz.png')}}" alt="" />
+											<h2>Mike Grisz</h2>
 											<small>TREASURER</small>
 										</div>
 									</div>
@@ -133,7 +133,7 @@
 
 								<div class="back">
 									<div class="box2 box-default">
-										<h4 class="nomargin">Mike Griz</h4>
+										<h4 class="nomargin">Mike Grisz</h4>
 										<small>TREASURER</small>
 
 										<hr />
@@ -269,7 +269,7 @@
 								<div class="back">
 									<div class="box2 box-default">
 										<h4 class="nomargin">Julienne Arnold</h4>
-										<small>COMMITTESS</small>										
+										<small>COMMITTEES</small>										
 										<hr />
 										<small>SOCIAL MEDIA</small><br/>
 										<small>WOMEN'S PROGRAM</small>
@@ -311,7 +311,7 @@
 								<div class="back">
 									<div class="box2 box-default">
 										<h4 class="nomargin">Tom Doughtry</h4>
-										<small>COMMITTESS</small>
+										<small>COMMITTEES</small>
 
 										<hr />
 
@@ -355,7 +355,7 @@
 								<div class="back">
 									<div class="box2 box-default">
 										<h4 class="nomargin">Dale Gosser</h4>
-										<small>COMMITTESS</small>
+										<small>COMMITTEES</small>
 
 										<hr />
 										<small>SOCIAL MEDIA</small></br>

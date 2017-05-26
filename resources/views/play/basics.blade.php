@@ -11,7 +11,7 @@
     </style>
 @stop
 @section('content')
-<section class="page-header parallax parallax-3" style="background-image:url({{ asset('images/court/ymca_bandw_crop9.jpg') }}) ">
+<section class="page-header page-header-sm header-md parallax parallax-3" style="background-image:url({{ asset('images/court/ymca_bandw_crop9.jpg') }}) ">
 	<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
 	<div class="container">
 		<h1>THE BASICS</h1>
@@ -59,7 +59,7 @@
 
 	<section>
 		<div class="container">
-			<h3>RACQUETBALL EQUIPTMENT</h3>
+			<h3>RACQUETBALL EQUIPMENT</h3>
 			
 			<!-- 
 				INFO BAR 

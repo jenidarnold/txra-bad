@@ -24,8 +24,8 @@
 	<section>
 		<div class="container">
 
-			<h3>2016 Annual Awards (presented in 2017)</h3>
-			<h5>These awards are for the period of January 1, 2016 to December 31, 2016 Awards will be presented at Regional’s Competition in San Antonio, Texas. (April, 2017)</h5>
+	        <h3>@php echo date("Y"); @endphp Annual Awards (presented in @php echo date("Y", strtotime('+1 year')); @endphp)</h3>
+			<h5>These awards are for the period of January 1, @php echo date("Y"); @endphp to December 31, @php echo date("Y"); @endphp Awards will be presented at Regional’s Competition in San Antonio, Texas. (April, @php echo date("Y", strtotime('+1 year')); @endphp)</h5>
 			<div class="row">
 
 				<!-- LEFT COLUMNS -->

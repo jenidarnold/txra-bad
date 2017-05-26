@@ -105,8 +105,8 @@
 
 				Example Usage:  class="clearfix sticky header-sm transparent noborder"
 			-->
+			<!--div id="header" class="dark header-md transparent clearfix" -->
 			<div id="header" class="dark transparent clearfix">
-
 				<!-- TOP NAV -->
 				<header id="topNav">
 					<div class="container">
@@ -137,48 +137,36 @@
 							</li>
 							<!-- /SEARCH -->
 
-							<!-- QUICK SHOP CART -->
-							<li class="quick-cart">
-								<a href="#">
-									<span class="badge badge-aqua btn-xs badge-corner">2</span>
-									<i class="fa fa-shopping-cart"></i>
+							<!-- USER OPTIONS -->
+							<li class="dropdown pull-left">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+									<img class="user-avatar" alt="" src="{{ asset('images/members/192412/profile.png') }}" height="34" />
 								</a>
-								<div class="quick-cart-box">
-									<h4>Shop Cart</h4>
-
-									<div class="quick-cart-wrapper">
-
-										<a href="#"><!-- cart item -->
-											<img src="{{ asset('images/demo/people/300x300/4-min.jpg') }}"  width="45" height="45" alt="" />
-											<h6><span>2x</span> TXRA T-Shirt</h6>
-											<small>$37.21</small>
-										</a><!-- /cart item -->
-
-										<a href="#"><!-- cart item -->
-											<img src="{{ asset('images/demo/people/300x300/5-min.jpg') }}" width="45" height="45" alt="" />
-											<h6><span>2x</span> TXRA Mug</h6>
-											<small>$17.18</small>
-										</a><!-- /cart item -->
-
-										<!-- cart no items example -->
-										<!--
-										<a class="text-center" href="#">
-											<h6>0 ITEMS ON YOUR CART</h6>
+								<ul class="dropdown-menu hold-on-click">
+									<li><!-- my calendar -->
+										<a href="calendar.html"><i class="fa fa-calendar"></i> Calendar</a>
+									</li>
+									<li><!-- my inbox -->
+										<a href="#"><i class="fa fa-envelope"></i> Inbox
+											<span class="pull-right label label-default">0</span>
 										</a>
-										-->
+									</li>
+									<li><!-- settings -->
+										<a href="page-user-profile.html"><i class="fa fa-cogs"></i> Settings</a>
+									</li>
 
-									</div>
+									<li class="divider"></li>
 
-									<!-- quick cart footer -->
-									<div class="quick-cart-footer clearfix">
-										<a href="shop-cart.html" class="btn btn-primary btn-xs pull-right">VIEW CART</a>
-										<span class="pull-left"><strong>TOTAL:</strong> $54.39</span>
-									</div>
-									<!-- /quick cart footer -->
-
-								</div>
+									<li><!-- lockscreen -->
+										<a href="page-lock.html"><i class="fa fa-lock"></i> Lock Screen</a>
+									</li>
+									<li><!-- logout -->
+										<a href="page-login.html"><i class="fa fa-power-off"></i> Log Out</a>
+									</li>
+								</ul>
 							</li>
-							<!-- /QUICK SHOP CART -->
+							<!-- /USER OPTIONS -->
+
 
 						</ul>
 						<!-- /BUTTONS -->
@@ -286,10 +274,7 @@
 													</li>
 													<li>
 														<a href="#">STATE TEAM</a>
-													</li>
-													<li>
-														<a href="#">NEWS & EVENTS</a>
-													</li>
+													</li>													
 													<li>
 														<a href="#">DONATE</a>
 													</li>
@@ -305,12 +290,12 @@
 													TEXAS INSTRUCTOR PROGRAM
 												</a>
 											</li>
-											<li class="dropdown">
+											<li class="dropdown" style="display:none">
 												<a class="dropdown-toggle" href="#">
 													AMBASSADOR PROGRAM
 												</a>
 											</li>
-											<li class="dropdown">
+											<li class="dropdown" style="display:none">
 												<a class="dropdown-toggle" href="#">
 													SCHOLARSHIPS
 												</a>

@@ -34,6 +34,7 @@ class NominationController extends Controller {
 	 */
 	public function awards(Request $request)
 	{
+
 		return view('forms/nominate/awards');
 	}
 }

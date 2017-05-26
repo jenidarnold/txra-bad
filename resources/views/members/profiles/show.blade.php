@@ -1,6 +1,21 @@
 @extends('layouts.app')
 @section('style')
     <style type="text/css">
+    	.gold {
+    		color: #D9D919;    		
+    	}
+    	.silver {
+    		color: #C0C0C0;
+    	}
+    	.bronze {
+    		color: #8C7853;
+    	}
+    	.ranking-box {
+    		background-image: url('/images/backgrounds/blue.jpg');
+    	}
+    	.ranking-box h2, .ranking-box  h3 {
+    		color:#fff;
+    	}
     </style>
 @stop
 @section('content')
@@ -33,16 +48,7 @@
 							<h2 class="size-18 margin-top-10 margin-bottom-0">Julienne Arnold</h2>
 							<h3 class="size-11 margin-top-0 margin-bottom-10 text-muted">ELITE</h3>
 						</div>
-
-						<!-- completed -->
-						<div class="margin-bottom-30">
-							<label>88% completed profile</label>
-							<div class="progress progress-xxs">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%; min-width: 2em;"></div>
-							</div>
-						</div>
-						<!-- /completed -->
-
+						
 						<!-- SIDE NAV -->
 						<ul class="side-nav list-group margin-bottom-60" id="sidebar-nav">
 							<li class="list-group-item active"><a href="page-profile.html"><i class="fa fa-eye"></i> PROFILE</a></li>
@@ -70,9 +76,9 @@
 									</li>
 								</ul>
 							</li>
-							<li class="list-group-item"><a href="page-profile-history.html"><i class="fa fa-trophy"></i> ACHIEVEMENTS</a></li>
+							<li class="list-group-item"><a href="page-profile-history.html"><i class="fa fa-trophy"></i> ACHIEVEMENTS <span class="badge badge-warning">23</span></a></li>
 							<li class="list-group-item"><a href="page-profile-history.html"><i class="fa fa-history"></i> MATCH HISTORY</a></li>
-							<li class="list-group-item"><a href="page-profile-projects.html"><i class="fa fa-photo"></i> GALLERY</a></li>
+							<li class="list-group-item"><a href="{{ route('members.gallery.index')}}"><i class="fa fa-photo"></i> GALLERY</a></li>
 							<li class="list-group-item"><a href="page-profile-comments.html"><i class="fa fa-comments-o"></i> COMMENTS</a></li>
 							<li class="list-group-item"><a href="page-profile-settings.html"><i class="fa fa-gears"></i> SETTINGS</a></li>							
 						</ul>
@@ -112,16 +118,16 @@
 					<div class="col-lg-9 col-md-9 col-sm-8">
 
 						<!-- FLIP BOX -->
-						<div class="box-flip box-icon box-icon-center box-icon-round box-icon-large text-center nomargin">
+						<div class="ranking-box box-flip box-icon box-icon-center box-icon-round box-icon-large text-center nomargin " >
 							<div class="front">
-								<div class="box1 noradius">
+								<div class="box1 noradius" >
 									<div class="box-icon-title">
-										<i class="fa fa-users"></i>
-										<h2>Julienne Arnold &ndash; RANKING</h2>
+										<i class="fa fa-users " style="background-color:#fff"></i>
+										<h2>RANKINGS</h2>
 									</div>
 									<div class="row margin-top-10">
 										<div class="col-md-4 col-sm-4 col-xs-4 margin-bottom-20">
-											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">SINGLES</h3>
+											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center"><i class="fa fa-female"></i> SINGLES</h3>
 											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
 												<h2 class="size-20 margin-top-10 margin-bottom-0 font-raleway countTo" data-speed="3000" >3</h2>
 												<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
@@ -133,7 +139,7 @@
 											</div>
 										</div>
 										<div class="col-md-4 col-sm-4 col-xs-4 margin-bottom-20">
-											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">DOUBLES</h3>
+											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center"><i class="fa fa-female"></i><i class="fa fa-female"></i> DOUBLES</h3>
 											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
 												<h2 class="size-20 margin-top-10 margin-bottom-0 font-raleway countTo" data-speed="3000">14</h2>
 												<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
@@ -145,7 +151,7 @@
 											</div>
 										</div>
 										<div class="col-md-4 col-sm-4 col-xs-4 margin-bottom-20">
-											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center">MIXED DOUBLES</h3>
+											<h3 class="size-11 margin-top-0 margin-bottom-0 text-center"><i class="fa fa-female"></i><i class="fa fa-male"></i> MIXED DOUBLES</h3>
 											<div class="col-md-6 col-sm-6 col-xs-6 text-center bold">
 												<h2 class="size-20 margin-top-10 margin-bottom-0 font-raleway countTo" data-speed="3000">11</h2>
 												<h3 class="size-11 margin-top-0 margin-bottom-10 text-info">TEXAS</h3>
@@ -248,44 +254,32 @@
 								</div>
 								<!-- /POPULAR POSTS -->
 
-								<!-- FRIENDS -->
+								<!-- ACHIEVEMENTS -->
 								<div class="col-md-6 col-sm-6">
 
 									<div class="box-inner">
 										<h3>
 											<a class="pull-right size-11 text-warning" href="#">VIEW ALL</a>
-											FRIENDS
+											ACHIEVEMENTS <span class="badge badge-success">23</span>
 										</h3>
 										<div class="height-250 slimscroll" data-always-visible="true" data-size="5px" data-position="right" data-opacity="0.4" disable-body-scroll="true">
 
 											<div class="clearfix margin-bottom-10"><!-- squared item -->
-												<img class="thumbnail pull-left" src="assets/images/demo/people/300x300/1-min.jpg" width="40" height="40" alt="" />
-												<h4 class="size-14 nomargin noborder nopadding bold"><a href="#">Joana Doe</a></h4>
-												<span class="size-12 text-muted">Lorem ipsum dolor sit amet.</span>
+												<i class="fa fa-trophy fa-2x thumbnail pull-left gold rounded" ></i>
+												<h4 class="size-14 nomargin noborder nopadding bold"><a href="#">1<sup>st</sup> Men's A/B Singles</a></h4>
+												<span class="size-12 text-muted">Tyler, TX Shootout May 6-7, 2017</span>
 											</div><!-- /squared item -->
 
-											<div class="clearfix margin-bottom-10"><!-- rounded item -->
-												<img class="thumbnail pull-left rounded" src="assets/images/demo/people/300x300/2-min.jpg" width="40" height="40" alt="" />
-												<h4 class="size-14 nomargin noborder nopadding bold"><a href="#">Melissa Doe</a></h4>
-												<span class="size-12 text-muted">Lorem ipsum dolor sit amet.</span>
+											<div class="clearfix margin-bottom-10"><!-- rounded item -->												
+												<i class="fa fa-trophy fa-2x thumbnail pull-left silver rounded" ></i>
+												<h4 class="size-14 nomargin noborder nopadding bold"><a href="#">2<sup>nd</sup> Men's Open/Elite Doubles</a></h4>
+												<span class="size-12 text-muted">Tyler, TX Shootout May 6-7, 2017</span>
 											</div><!-- /rounded item -->
 
-											<div class="clearfix margin-bottom-10"><!-- squared item -->
-												<img class="thumbnail pull-left" src="assets/images/demo/people/300x300/3-min.jpg" width="40" height="40" alt="" />
-												<h4 class="size-14 nomargin noborder nopadding bold"><a href="#">Felicia Doe</a></h4>
-												<span class="size-12 text-muted">Lorem ipsum dolor sit amet.</span>
-											</div><!-- /squared item -->
-
-											<div class="clearfix margin-bottom-10"><!-- rounded item -->
-												<img class="thumbnail pull-left rounded" src="assets/images/demo/people/300x300/4-min.jpg" width="40" height="40" alt="" />
-												<h4 class="size-14 nomargin noborder nopadding bold"><a href="#">Suzana Doe</a></h4>
-												<span class="size-12 text-muted">Lorem ipsum dolor sit amet.</span>
-											</div><!-- /rounded item -->
-
-											<div class="clearfix margin-bottom-10"><!-- squared item -->
-												<img class="thumbnail pull-left" src="assets/images/demo/people/300x300/5-min.jpg" width="40" height="40" alt="" />
-												<h4 class="size-14 nomargin noborder nopadding bold"><a href="#">Jolie Doe</a></h4>
-												<span class="size-12 text-muted">Lorem ipsum dolor sit amet.</span>
+											<div class="clearfix margin-bottom-10"><!-- squared item -->												
+												<i class="fa fa-trophy fa-2x thumbnail pull-left bronze rounded" ></i>
+												<h4 class="size-14 nomargin noborder nopadding bold"><a href="#">3<sup>rd</sup> U.S. Open Women's Elite Singles</a></h4>
+												<span class="size-12 text-muted">Minneapolis, Mn Oct 5-8, 2017</span>
 											</div><!-- /squared item -->
 
 										</div>
