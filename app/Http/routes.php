@@ -49,6 +49,15 @@ Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()
 	Route::put('addphoto', array('as' => 'members.gallery.create', 'uses' => 'GalleryController@create'));		
 });
 
+Route::group(['namespace' => 'Events', 'prefix' =>'events'], function()
+{
+	Route::get('live', array('as' => 'events.live.index', 'uses' => 'LiveController@index'));	
+	Route::get('live/show', array('as' => 'events.live.show', 'uses' => 'LiveController@show'));
+	Route::get('future', array('as' => 'events.future.index', 'uses' => 'FutureController@index'));	
+	Route::get('recent', array('as' => 'events.recent.index', 'uses' => 'PastController@index'));	
+	Route::get('past', array('as' => 'events.past.index', 'uses' => 'PastController@index'));	
+});
+
 Route::group(['namespace' => 'About', 'prefix' =>'about'], function()
 {
 	Route::get('board', array('as' => 'board.index', 'uses' => 'LeadershipController@board'));	

@@ -3,7 +3,7 @@
 				<div class="container">
 
 					<div class="heading-title heading-border">
-						<h3><span>Live</span> Events</h3>
+						<h3><span>{{ $event_type }}</span> Events</h3>
 						<!--p class="font-lato size-14">Lorem ipsum dolor sit amet.</p-->
 					</div>
 
@@ -39,7 +39,7 @@
 											</a>
 
 											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
+											<a class="ico-rounded" href="{{ route('events.live.show') }}">
 												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
 											</a>
 
@@ -50,12 +50,12 @@
 								</figure>
 
 								<div class="item-box-desc">
-									<h3>Greater Houston Challenge Ladder</h3>
+									<h3>2017 Battle of the Alamo</h3>
 									<ul class="list-inline categories nomargin">
-										<li>7/28/2016 - 12/31/2099</li>
-										<li>Houston, TX</li>
+										<li>4/21/2017 - 4/23/2017</li>
+										<li>San Antonio, TX</li>
 										<li>
-											<a href="#">Ladder Information</a>
+											<a href="r2sports.com/?TID=123">Tournament Information</a>
 										</li>
 									</ul>
 								</div>
@@ -71,7 +71,7 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="{{ asset('images/demo/mockups/1200x800/4-min.jpg') }}" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="{{ asset('images/tournaments/logos/mav.jpg') }}" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
@@ -83,22 +83,23 @@
 										</span>
 									</span>
 
-									<img class="img-responsive" src="{{ asset('images/demo/mockups/600x399/4-min.jpg') }}" width="600" height="399" alt="">
+									<img class="img-responsive" src="{{ asset('images/tournaments/logos/mav.jpg') }}" width="600" height="399" alt="">
 								</figure>
 
 								<div class="item-box-desc">
-									<h3>University of Texas: Austin Challenge Ladder</h3>
+									<h3>2017 Maverick May Racquetball Shootout</h3>
 									<ul class="list-inline categories nomargin">
-										<li>9/11/2016 - 12/31/2020</li>
-										<li>Austin, TX</li>
+										<li>5/13/2017 - 5/13/2017</li>
+										<li>Maverick Athletic Club. ARLINGTON, TX</li>
 										<li>
-											<a href="#">Ladder Information</a>
+											<a href="#">Tournament Information</a>
 										</li>
 									</ul>
 								</div>
 
 							</div>
 							<!-- /item -->
+							
 						</div>
 					</div>
 				</div>

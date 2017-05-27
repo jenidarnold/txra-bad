@@ -346,22 +346,22 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
+												<a class="dropdown" href="{{ route('events.live.index')}}">
 													LIVE EVENTS
 												</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
+												<a class="dropdown" href="{{ route('events.future.index')}}">
 													UPCOMING EVENTS
 												</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
+												<a class="dropdown" href="{{ route('events.recent.index')}}">
 													RECENT EVENTS
 												</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
+												<a class="dropdown" href="{{ route('events.past.index')}}">
 													ARCHIVED EVENTS
 												</a>
 											</li>
