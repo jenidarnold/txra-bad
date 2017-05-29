@@ -14,8 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+	//'scraper' => 'Admin\ScreenScrapeController',
+]);
+
+
 Route::get('/login', function () {
-    return view('login');
+    return view('auth/login');
 });
 Route::get('/register', function () {
     return view('register');
@@ -31,7 +39,8 @@ Route::group(['namespace' => 'Play', 'prefix' =>'play'], function()
 
 Route::group(['namespace' => 'Programs', 'prefix' =>'programs'], function()
 {
-	Route::get('juniors', array('as' => 'programs.juniors', 'uses' => 'JuniorsController@index'));	
+	Route::get('juniors', array('as' => 'programs.juniors.index', 'uses' => 'JuniorsController@index'));
+	Route::get('juniors/welcome', array('as' => 'programs.juniors.welcome', 'uses' => 'JuniorsController@welcome'));		
 	Route::get('instructors', array('as' => 'programs.instructors', 'uses' => 'InstructorsController@index'));	
 	Route::get('awards', array('as' => 'awards.index', 'uses' => 'AwardsController@index'));	
 	Route::get('referee', array('as' => 'referee.index', 'uses' => 'RefereeController@index'));		
@@ -76,3 +85,6 @@ Route::group(['namespace' => 'Forms', 'prefix' =>'forms'], function()
 Route::get('/terms-of-use', function () {
     return view('misc.termsofuse');
 });
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
