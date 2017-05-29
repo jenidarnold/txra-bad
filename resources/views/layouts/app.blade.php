@@ -130,38 +130,7 @@
 									</form>
 								</div>
 							</li>
-							<!-- /SEARCH -->
-
-							<!-- USER OPTIONS -->
-							<li class="dropdown pull-left">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-									<img class="user-avatar" alt="" src="{{ asset('images/members/192412/profile.png') }}" height="34" />
-								</a>
-								<ul class="dropdown-menu hold-on-click">
-									<li><!-- my calendar -->
-										<a href="calendar.html"><i class="fa fa-calendar"></i> Calendar</a>
-									</li>
-									<li><!-- my inbox -->
-										<a href="#"><i class="fa fa-envelope"></i> Inbox
-											<span class="pull-right label label-default">0</span>
-										</a>
-									</li>
-									<li><!-- settings -->
-										<a href="page-user-profile.html"><i class="fa fa-cogs"></i> Settings</a>
-									</li>
-
-									<li class="divider"></li>
-
-									<li><!-- lockscreen -->
-										<a href="page-lock.html"><i class="fa fa-lock"></i> Lock Screen</a>
-									</li>
-									<li><!-- logout -->
-										<a href="page-login.html"><i class="fa fa-power-off"></i> Log Out</a>
-									</li>
-								</ul>
-							</li>
-							<!-- /USER OPTIONS -->
-
+							<!-- /SEARCH -->						
 
 						</ul>
 						<!-- /BUTTONS -->
@@ -191,29 +160,7 @@
 										<a href="#">HOME</a>
 									</li>
 								-->
-								<ul id="topMain" class="nav nav-pills nav-main">
-									<li class="dropdown active"><!-- HOME -->
-										<a class="dropdown-toggle" href="#">
-											HOME
-										</a>
-										<ul class="dropdown-menu">
-											<li class="dropdown">
-												<a class="" href="/">
-													WELCOME
-												</a>
-											</li>
-											<li class="dropdown">
-												<a class="dropdown" href="/login">
-													LOGIN
-												</a>
-											</li>
-											<li class="dropdown">
-												<a class="dropdown" href="/register">
-													REGISTER
-												</a>
-											</li>
-										</ul>
-									</li>
+								<ul id="topMain" class="nav nav-pills nav-main">									
 									<li class="dropdown"><!-- PLAY -->
 										<a class="dropdown-toggle" href="#">
 											PLAY
@@ -268,7 +215,7 @@
 														<a href="#">STATE TEAM</a>
 													</li>													
 													<li>
-														<a href="#">DONATE</a>
+														<a href="#" >DONATE</a>
 													</li>
 												</ul>
 											</li>
@@ -431,12 +378,7 @@
 												<a class="dropdown-toggle" href="#">
 													GOOD NEIGHBOR PROGRAM
 												</a>
-											</li>
-											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													DONATE NOW
-												</a>
-											</li>
+											</li>											
 											<li class="dropdown">
 												<a class="dropdown-toggle" href="#">
 													DONORS
@@ -444,6 +386,44 @@
 											</li>
 										</ul>
 									</li>
+
+									<!-- USER OPTIONS -->
+									@if( Auth::guest())
+									<li class="dropdown">
+										<a class="dropdown" href="/login">
+											<span class="btn btn-primary">LOGIN</span>
+										</a>								
+									<li class="dropdown">
+										<a class="dropdown" href="/register">
+											<span class="btn btn-default">REGISTER</span>
+										</a>
+									</li>
+									@else
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+											<img class="user-avatar" alt="{{ Auth::user()->first_name . ' ' . Auth::user()->last_name }}" src="{{ asset('images/members/'. Auth::user()->id .'/profile.png') }}" height="34" />
+										</a>
+										<ul class="dropdown-menu hold-on-click">
+											<li><!-- my calendar -->
+												<a href="calendar.html"><i class="fa fa-calendar"></i> Calendar</a>
+											</li>
+											<li><!-- my inbox -->
+												<a href="#"><i class="fa fa-envelope"></i> Inbox
+													<span class="pull-right label label-default">0</span>
+												</a>
+											</li>
+											<li><!-- settings -->
+												<a href="page-user-profile.html"><i class="fa fa-cogs"></i> Settings</a>
+											</li>
+
+											<li class="divider"></li>
+											<li><!-- logout -->
+												<a href="{{ url('/logout') }}"><i class="fa fa-power-off"></i> Log Out</a>
+											</li>
+										</ul>	
+									</li>						
+									@endif							
+									<!-- /USER OPTIONS -->
 								</ul>
 							</nav>
 						</div>

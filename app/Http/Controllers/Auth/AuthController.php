@@ -28,7 +28,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/members/listing';
+    protected $redirectTo = '/members/home';
 
     /**
      * Create a new authentication controller instance.
@@ -47,13 +47,12 @@ class AuthController extends Controller
      * @return \Illuminate\Contracts\Validation\Validator
      */
     protected function validator(array $data)
-    {
-        var_dump('validate');
+    {        
         return Validator::make($data, [
             'first_name' => 'required|max:255',
             'last_name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users', 
-            'password' => 'required|min:6|confirmed',
+            'password' => 'required|min:4|confirmed',
         ]);
     }
 

@@ -40,6 +40,22 @@ class MemberController extends Controller {
 	}
 
 	/**
+	 * After member login, redirect to their profile page
+	 *
+	 * @return Response
+	 */
+	public function home(Request $request)
+	{
+		if(\Auth::check()){
+			return redirect()->route('members.show', ['id' =>  \Auth::user()->id ]);
+
+		}else{
+			return view('auth/login');
+		}
+
+	}
+
+	/**
 	 * Display member profile.
 	 *
 	 * @return Response
