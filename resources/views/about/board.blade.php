@@ -4,21 +4,21 @@
     </style>
 @stop
 @section('content')		
-			<section class="page-header page-header-xs">
-				<div class="container">
+	<section class="page-header page-header-xs">
+		<div class="container">
 
-					<h1>TXRA BOARD MEMBERS</h1>
+			<h1>TXRA BOARD MEMBERS</h1>
 
-					<!-- breadcrumbs -->
-					<ol class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Pages</a></li>
-						<li class="active">Board of Directors</li>
-					</ol><!-- /breadcrumbs -->
+			<!-- breadcrumbs -->
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Pages</a></li>
+				<li class="active">Board of Directors</li>
+			</ol><!-- /breadcrumbs -->
 
-				</div>
-			</section>
-			<!-- /PAGE HEADER -->
+		</div>
+	</section>
+	<!-- /PAGE HEADER -->
 
 			<!-- -->
 			<section>

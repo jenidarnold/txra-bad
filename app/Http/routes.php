@@ -78,6 +78,11 @@ Route::group(['namespace' => 'About', 'prefix' =>'about'], function()
 	Route::get('election/process', array('as' => 'election.index', 'uses' => 'LeadershipController@election'));	
 });
 
+Route::group(['namespace' => 'Donate', 'prefix' =>'donate'], function()
+{
+	Route::get('/', array('as' => 'donate.index', 'uses' => 'DonateController@index'));	
+});
+
 Route::group(['namespace' => 'Forms', 'prefix' =>'forms'], function()
 {
 	Route::get('election/nominate', array('as' => 'election.nominate', 'uses' => 'NominationController@election'));	

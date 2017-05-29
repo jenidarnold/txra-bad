@@ -12,7 +12,7 @@
 
 			<!-- breadcrumbs -->
 			<ol class="breadcrumb">
-				<li><a href="#">Home</a></li>
+				<li><a href="/">Home</a></li>
 				<li><a href="#">Play</a></li>
 				<li class="active">Instructors</li>
 			</ol><!-- /breadcrumbs -->
@@ -40,7 +40,7 @@
 						<div class="front">
 							<div class="box1 box-default">
 								<div class="box-icon-title">
-									<img class="img-responsive" src="{{ asset('images/TIP/JansenAllen.jpg'}}" alt="" />
+									<img class="img-responsive" src="{{ asset('images/instructors/JansenAllen.jpg')}}" alt="" />
 									<h2>JANSEN ALLEN</h2>
 									<small>Dallas, TX</small>
 								</div>
@@ -92,7 +92,7 @@
 						<div class="front">
 							<div class="box1 box-default">
 								<div class="box-icon-title">
-									<img class="img-responsive" src="{{ asset('images/TIP/2015jessebaza.jpg')}}" alt="" />
+									<img class="img-responsive" src="{{ asset('images/instructors/2015jessebaza.jpg')}}" alt="" />
 									<h2>JESSE BAZA</h2>
 									<small>San Antonio, TX</small>
 								</div>
@@ -144,7 +144,7 @@
 						<div class="front">
 							<div class="box1 box-default">
 								<div class="box-icon-title">
-									<img class="img-responsive" src="{{ asset/images/TIP/SandyLong.jpg')}}" alt="" />
+									<img class="img-responsive" src="{{ asset('images/instructors/SandyLong.jpg')}}" alt="" />
 									<h2>SANDY LONG</h2>
 									<small>Fort Worth, Texas</small>
 								</div>
@@ -196,7 +196,7 @@
 						<div class="front">
 							<div class="box1 box-default">
 								<div class="box-icon-title">
-									<img class="img-responsive" src="{{ asset('images/TIP/2014diegoperez.png')}}" alt="" />
+									<img class="img-responsive" src="{{ asset('images/instructors/2014diegoperez.png')}}" alt="" />
 									<h2>DIEGO PEREZ</h2>
 									<small>Tyler, TX</small>
 								</div>
@@ -251,7 +251,7 @@
 						<div class="front">
 							<div class="box1 box-default">
 								<div class="box-icon-title">
-									<img class="img-responsive" src="{{ asset('images/TIP/JoannaReyes.jpg')}}" alt="" />
+									<img class="img-responsive" src="{{ asset('images/instructors/JoannaReyes.jpg')}}" alt="" />
 									<h2>JOANNA REYES</h2>
 									<small>Corpus Christi, TX</small>
 								</div>
@@ -303,7 +303,7 @@
 						<div class="front">
 							<div class="box1 box-default">
 								<div class="box-icon-title">
-									<img class="img-responsive" src="{{ asset('images/TIP/2014mikesorensen.png')}}" alt="" />
+									<img class="img-responsive" src="{{ asset('images/instructors/2014mikesorensen.png')}}" alt="" />
 									<h2>MIKE SORENSEN</h2>
 									<small>Plano, TX</small>
 								</div>
@@ -355,7 +355,7 @@
 						<div class="front">
 							<div class="box1 box-default">
 								<div class="box-icon-title">
-									<img class="img-responsive" src="{{ asset('images/TIP/2014edievann.png')}}" alt="" />
+									<img class="img-responsive" src="{{ asset('images/instructors/2014edievann.png')}}" alt="" />
 									<h2>EDDIE VANN</h2>
 									<small>Katy, Texas</small>
 								</div>
@@ -407,7 +407,7 @@
 						<div class="front">
 							<div class="box1 box-default">
 								<div class="box-icon-title">
-									<img class="img-responsive" src="{{ asset('images/TIP/2016lLeoVasquez.jpg')}}" alt="" />
+									<img class="img-responsive" src="{{ asset('images/instructors/2016lLeoVasquez.jpg')}}" alt="" />
 									<h2>LEO R VASQUEZ</h2>
 									<small>Arlington, TX</small>
 								</div>

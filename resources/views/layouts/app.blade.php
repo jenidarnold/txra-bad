@@ -142,7 +142,7 @@
 							<img src="{{ asset('images/A.png')}}" style="height:30px;display:inline; opacity:.4" alt="" />
 						</a>
 						-->
-						<img src="{{ asset('images/logo_2017.png')}}" style="height:100px;display:inline;" alt="" />
+						<a href="/"><img src="{{ asset('images/logo_2017.png')}}" style="height:100px;display:inline;" alt="" /></a>
 
 						<!--
 							Top Nav
@@ -213,10 +213,7 @@
 													</li>
 													<li>
 														<a href="#">STATE TEAM</a>
-													</li>													
-													<li>
-														<a href="#" >DONATE</a>
-													</li>
+													</li>	
 												</ul>
 											</li>
 											<li class="dropdown">
@@ -356,46 +353,20 @@
 										</ul>
 									</li>
 									<li class="dropdown"><!-- DONATE -->
-										<a class="dropdown-toggle" href="#">
-											DONATE
+										<a class="dropdown" href="/donate">
+											DONATIONS
 										</a>
-										<ul class="dropdown-menu pull-right">
-											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													JUNIORS PROGRAM DONATION
-												</a>
-											</li>
-											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													COLLEGE SCHOLARSHIP DONATION
-												</a>
-											</li>
-											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													AmazonSmile
-												</a>
-											</li><li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													GOOD NEIGHBOR PROGRAM
-												</a>
-											</li>											
-											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
-													DONORS
-												</a>
-											</li>
-										</ul>
 									</li>
 
 									<!-- USER OPTIONS -->
 									@if( Auth::guest())
 									<li class="dropdown">
 										<a class="dropdown" href="/login">
-											<span class="btn btn-primary">LOGIN</span>
+											<span class="btn btn-sm btn-primary">LOGIN</span>
 										</a>								
 									<li class="dropdown">
 										<a class="dropdown" href="/register">
-											<span class="btn btn-default">REGISTER</span>
+											<span class="btn btn-sm btn-default">REGISTER</span>
 										</a>
 									</li>
 									@else

@@ -75,6 +75,7 @@
                             </p>
                             <img class="ls-l" style="top:45%;left:585px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1500;rotateyin:90;transformoriginin:right 50% 0;offsetxout:0;durationout:1500;showuntil:1000;rotateyout:-90;transformoriginout:right 50% 0;" src="asset('images/racquet.png') }}" alt="">
                         </div>
+                        <!-- /SLIDE- ->
 
                         <!-- SLIDE -->
                         <div class="ls-slide" data-ls="slidedelay:8000;transition2d:21,105;timeshift:-1000;">
