@@ -117,10 +117,12 @@
 
 							<div style="max-width:500px; margin:auto;">
 
-								<form class="validate nomargin" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="top-right">
+								<form class="validate nomargin" action="{{ url('subscribe') }}" method="post" data-success="Subscribed! Thank you!" data-toastr-position="top-right">
 									<div class="input-group">
 										<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
 										<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+										<input type="hidden" name="_token" value="{{ csrf_token() }}">
+										<input type="hidden" name="subscription_id"  value="1">
 										<span class="input-group-btn">
 											<button class="btn btn-success" type="submit">Subscribe</button>
 										</span>

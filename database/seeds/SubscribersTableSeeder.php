@@ -16,7 +16,7 @@ class SubscribersTableSeeder extends Seeder
        DB::table('subscribers')->delete();
 		Subscriber::create([
 			'id' => '1',
-			'email' => 'TXRA Newsletter',
+			'email' => 'julienne.enid@gmail.com',
 			'subscription_id' => 1,
 			'enabled' => true,
 		]);
