@@ -342,13 +342,9 @@
 												</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown-toggle" href="#">
+												<a class="dropdown" href="{{route('contact')}}">
 													CONTACT US
-												</a>
-												<ul class="dropdown-menu">
-													<li><a href="blog-single-default.html">FEEDBACK</a></li>
-													<li><a href="blog-single-aside-left.html">TAKE OUR SURVEY</a></li>
-												</ul>
+												</a>												
 											</li>
 										</ul>
 									</li>

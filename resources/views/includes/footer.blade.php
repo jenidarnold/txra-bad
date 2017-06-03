@@ -61,7 +61,7 @@
 				<h4 class="letter-spacing-1">KEEP IN TOUCH</h4>
 				<p>Subscribe to Our Newsletter to get Important News &amp; Offers</p>
 
-				<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+				<form class="validate" action="{{ url('subscribe')}} " method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
 						<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
@@ -74,7 +74,7 @@
 
 				<!-- Social Icons -->
 				<div class="margin-top-20">
-					<a href="#" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+					<a href="https://www.facebook.com/TXRA-Texas-Racquetball-Association-187625447927010/" target="new" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
 
 						<i class="icon-facebook"></i>
 						<i class="icon-facebook"></i>

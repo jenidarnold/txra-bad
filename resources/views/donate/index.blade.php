@@ -51,7 +51,7 @@
 					<h5><a href="http://www.tomthumb.com/ShopStores/Good-Neighbor.page?">Good Neighbor Program</a></h5>
 					<p>Texas Amateur Racquetball Association Organization Acct. #: 11882</p>
 					<a class="box-icon-more font-lato weight-300" href="#">Enroll Now</a> |
-					<a class="box-icon-more font-lato weight-300" href="#" data-toggle="modal" data-target="#modGoodNeighbor">Learn More</a>
+					<a class="box-icon-more font-lato weight-300" href="#" data-toggle="modal" data-target="#modNeighbor">Learn More</a>
 				</div>
 
 				<div class="col-xs-6 col-sm-3">
@@ -132,7 +132,7 @@
 
 				<!-- Modal Footer -->
 				<div class="modal-footer">
-					<a href="http://smile.amazon.com/ch/76-0262488" target="new"><img src="{{asset('images/donate/amazonsmile.jpg')}}"</a>
+					<a href="http://smile.amazon.com/ch/76-0262488" target="new"><img src="{{asset('images/donate/amazonsmile.jpg')}}"></a>
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 
@@ -159,13 +159,12 @@
 					<p>
 					If you already have a Tom Thumb Reward card just link the TXRA account number (#11882) to your Reward card. This can be done at the Customer Service Desk or you can download a printable Good Neighbor Form here to use with our account number already printed on it.
 					</p>
-					
-					<h5>Please make sure it says <b>Supporting: Texas Amateur Racquetball Assn Inc.</b></h5>
+					<a href="http://www.tomthumb.com/ShopStores/Good-Neighbor.page">FAQ</a>
 				</div>
 
 				<!-- Modal Footer -->
 				<div class="modal-footer">
-					<button type="button" onclick="href.location={{asset('pdf/goodneighborform.pdf')}}">Download Form</button>
+					<button type="button" class="btn btn-success" onclick="href.location={{asset('pdf/goodneighborform.pdf')}}">Download Form</button>
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 

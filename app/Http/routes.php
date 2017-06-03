@@ -10,8 +10,12 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
 Route::get('/', function () {
+    return view('coming-soon');
+});
+
+
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
@@ -87,7 +91,7 @@ Route::group(['namespace' => 'Forms', 'prefix' =>'forms'], function()
 {
 	Route::get('election/nominate', array('as' => 'election.nominate', 'uses' => 'NominationController@election'));	
 	Route::get('awards/nominate', array('as' => 'awards.nominate', 'uses' => 'NominationController@awards'));	
-
+	Route::get('contact', array('as' => 'contact', 'uses' => 'ContactController@index'));	
 });
 
 Route::get('/terms-of-use', function () {
@@ -96,3 +100,6 @@ Route::get('/terms-of-use', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+
+Route::resource('subscribe', 'SubscribeController');
