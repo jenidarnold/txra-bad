@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Redirect;
+use App\User;
 
 class MemberController extends Controller {
 
@@ -60,10 +61,14 @@ class MemberController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function show(Request $request)
+	public function show($id)
 	{
 
-		return view('members/profiles/show');
+		$user = User::find($id);
+
+		//TODO add gender to user table
+		$user->gender = 'f';
+		return view('members/profiles/show', compact('user'));
 	}
 
 	/**
