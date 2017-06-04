@@ -72,6 +72,21 @@ class MemberController extends Controller {
 	}
 
 	/**
+	 * Display member profile edit.
+	 *
+	 * @return Response
+	 */
+	public function edit($id)
+	{
+
+		$user = User::find($id);
+
+		//TODO add gender to user table
+		$user->gender = 'f';
+		return view('members/profiles/edit', compact('user'));
+	}
+
+	/**
 	 * Display member rankings.
 	 *
 	 * @return Response

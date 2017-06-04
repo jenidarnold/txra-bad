@@ -49,11 +49,14 @@ Route::group(['namespace' => 'Programs', 'prefix' =>'programs'], function()
 	Route::get('referee/adults', array('as' => 'referee.adults', 'uses' => 'RefereeController@adult'));	
 });
 
+
+/* Members */
 Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()
 {	
 	Route::get('home', array('as' => 'members.listing', 'uses' => 'MemberController@home'));
 	Route::get('listing', array('as' => 'members.listing', 'uses' => 'MemberController@index'));	
-	Route::get('profile/{id}/', array('as' => 'members.show', 'uses' => 'MemberController@show'));	
+	Route::get('profile/{id}/', array('as' => 'members.show', 'uses' => 'MemberController@show'));		
+	Route::get('profile/{id}/edit', array('as' => 'members.edit', 'uses' => 'MemberController@edit'));	
 	Route::get('matches', array('as' => 'members.matches', 'uses' => 'MemberController@matches'));	
 	Route::get('rankings', array('as' => 'members.rankings', 'uses' => 'MemberController@rankings'));
 	Route::get('gallery', array('as' => 'members.gallery.index', 'uses' => 'GalleryController@index'));

@@ -380,7 +380,7 @@
 												</a>
 											</li>
 											<li><!-- settings -->
-												<a href="page-user-profile.html"><i class="fa fa-cogs"></i> Settings</a>
+												<a href="{{ route('members.edit', array('id' =>  Auth::user()->id))}}"><i class="fa fa-cogs"></i> Settings</a>
 											</li>
 
 											<li class="divider"></li>
