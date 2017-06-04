@@ -20,15 +20,10 @@ Route::get('/welcome', function () {
 });
 
 Route::controllers([
-	'auth' => 'Auth\AuthController',
+//	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 	//'scraper' => 'Admin\ScreenScrapeController',
 ]);
-
-
-Route::get('/register', function () {
-    return view('register');
-});
 
 Route::get('/logout', function () {
 	\Auth::logout();
@@ -97,9 +92,11 @@ Route::group(['namespace' => 'Forms', 'prefix' =>'forms'], function()
 Route::get('/terms-of-use', function () {
     return view('misc.termsofuse');
 });
-Route::auth();
-
 Route::get('/home', 'HomeController@index');
 
 
 Route::resource('subscribe', 'SubscribeController');
+
+
+/* must be last? */
+Route::auth();

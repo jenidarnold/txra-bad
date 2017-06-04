@@ -7,6 +7,7 @@ use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
@@ -56,4 +57,44 @@ class AuthController extends Controller
         ]);
     }
 
+     /**
+     * Create a new user instance after a valid registration.
+     *
+     * @param  array  $data
+     * @return User
+     */
+    public function register(Request $request)
+    {
+        
+        $validator = $this->validator($request->all());
+
+        if ($validator->fails()) {
+           $this->throwValidationException(
+                $request, $validator                
+            );
+        }
+
+        \Auth::login($this->create($request->all()));
+        /*\Event::fire(new UserWasRegistered($data)); */
+        return redirect($this->redirectPath());
+
+    }
+
+    /**
+     * Create a new user instance after a valid registration.
+     *
+     * @param  array  $data
+     * @return User
+     */
+    public function create(array $data)
+    {
+        /*\Event::fire(new UserWasRegistered($data)); */
+        return User::create([
+            'first_name' => $data['first_name'],
+            'last_name' => $data['last_name'],
+            'email' => $data['email'],
+          //  'gender' => $data['gender'],
+            'password' => bcrypt($data['password']),
+        ]);
+    }
 }
