@@ -12,17 +12,13 @@
 
 			<!-- breadcrumbs -->
 			<ol class="breadcrumb">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Pages</a></li>
+				<li><a href="/">Welcome</a></li>
 				<li class="active">Register</li>
 			</ol><!-- /breadcrumbs -->
 
 		</div>
 	</section>
 	<!-- /PAGE HEADER -->
-
-
-
 
 			<!-- -->
 			<section>
@@ -45,7 +41,7 @@
 							<form class="nomargin sky-form boxed" action="{{ url('/register') }}" method="post">
 							 {{ csrf_field() }}
 								<header>
-									<i class="fa fa-envelope"></i> Register using your email address
+									<i class="fa fa-envelope"></i> Register for a TXRA account using your email address
 									</header>
 
 								<fieldset class="nomargin">		
@@ -139,7 +135,7 @@
 							<form action="#" method="post" class="sky-form boxed">
 							{{ csrf_field() }}
 								<header class="size-18 margin-bottom-20">
-									<img class="" style="height:30px" src="{{ asset('images/logos/r2sports.gif') }}" ></i> Register using your USAR / R2 Sports account
+									<img class="" style="height:30px" src="{{ asset('images/logos/r2sports.gif') }}" ></i> Register for a TXRA account using your existing USAR account
 								</header>
 								
 								<fieldset class="nomargin">
@@ -180,7 +176,7 @@
 							<form action="#" method="post" class="sky-form boxed">
 							{{ csrf_field() }}
 								<header class="size-18 margin-bottom-20">
-									<i class="fa fa-facebook-square"></i>  Register using your Facebook account
+									<i class="fa fa-facebook-square"></i>  Register for a TXRA account using your existing Facebook account
 								</header>
 								
 								<fieldset class="nomargin">
