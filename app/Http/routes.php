@@ -65,11 +65,11 @@ Route::group(['namespace' => 'Members', 'prefix' =>'members'], function()
 
 Route::group(['namespace' => 'Events', 'prefix' =>'events'], function()
 {
-	Route::get('live', array('as' => 'events.live.index', 'uses' => 'LiveController@index'));	
-	Route::get('live/show', array('as' => 'events.live.show', 'uses' => 'LiveController@show'));
-	Route::get('future', array('as' => 'events.future.index', 'uses' => 'FutureController@index'));	
-	Route::get('recent', array('as' => 'events.recent.index', 'uses' => 'PastController@index'));	
-	Route::get('past', array('as' => 'events.past.index', 'uses' => 'PastController@index'));	
+	Route::get('{type}', array('as' => 'events.index', 'uses' => 'EventController@index'));	
+	Route::get('tournament/{id}/', array('as' => 'events.show', 'uses' => 'EventController@show'));
+	Route::get('tournament/{id}/scores', array('as' => 'events.scores', 'uses' => 'EventController@scores'));
+	Route::get('tournament/{id}/participants', array('as' => 'events.participants', 'uses' => 'EventController@participants'));
+	Route::get('tournament/{id}/gallery', array('as' => 'events.gallery', 'uses' => 'EventController@gallery'));
 });
 
 Route::group(['namespace' => 'About', 'prefix' =>'about'], function()

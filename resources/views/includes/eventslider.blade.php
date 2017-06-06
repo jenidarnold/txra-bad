@@ -34,28 +34,28 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="{{ asset('images/tournaments/2016 Alamo.jpg') }}" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="{{ asset('images/tournaments/logos/21674_large.jpg') }}" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
 											<!-- details -->
-											<a class="ico-rounded" href="{{ route('events.live.show') }}">
+											<a class="ico-rounded" href="{{ route('events.show', array('id' => 21674)) }}">
 												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
 											</a>
 
 										</span>
 									</span>
 
-									<img class="img-responsive" src="{{ asset('images/tournaments/2016 Alamo.jpg') }}" width="600" height="399" alt="">
+									<img class="img-responsive" src="{{ asset('images/tournaments/logos/21674_large.jpg') }}" width="600" height="399" alt="">
 								</figure>
 
 								<div class="item-box-desc">
-									<h3>2017 Battle of the Alamo</h3>
+									<h3>Crazy Craigs Celebration Tournament</h3>
 									<ul class="list-inline categories nomargin">
 										<li>4/21/2017 - 4/23/2017</li>
-										<li>San Antonio, TX</li>
+										<li>Round Rock, TX</li>
 										<li>
-											<a href="r2sports.com/?TID=123">Tournament Information</a>
+											<a href="r2sports.com/?TID=21674">Tournament Information</a>
 										</li>
 									</ul>
 								</div>

@@ -282,22 +282,22 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="dropdown">
-												<a class="dropdown" href="{{ route('events.live.index')}}">
+												<a class="dropdown" href="{{ route('events.index', array('type' =>'live'))}}">
 													LIVE EVENTS
 												</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown" href="{{ route('events.future.index')}}">
+												<a class="dropdown" href="{{ route('events.index', array('type' =>'future'))}}">
 													UPCOMING EVENTS
 												</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown" href="{{ route('events.recent.index')}}">
+												<a class="dropdown" href="{{ route('events.index', array('type' =>'recent'))}}">
 													RECENT EVENTS
 												</a>
 											</li>
 											<li class="dropdown">
-												<a class="dropdown" href="{{ route('events.past.index')}}">
+												<a class="dropdown" href="{{ route('events.index', array('type' =>'past'))}}">
 													ARCHIVED EVENTS
 												</a>
 											</li>
