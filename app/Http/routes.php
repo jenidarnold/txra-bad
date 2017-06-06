@@ -19,6 +19,13 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+	
+Route::group(['namespace' => 'Blog', 'prefix' =>'news'], function()
+{
+	Route::get('/', array('as' => 'blog.index', 'uses' => 'BlogController@index'));	
+	Route::get('/{id}', array('as' => 'blog.show', 'uses' => 'BlogController@show'));		
+});
+
 Route::controllers([
 //	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

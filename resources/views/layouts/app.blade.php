@@ -304,7 +304,7 @@
 										</ul>
 									</li>
 									<li class="dropdown"><!-- EVENTS -->
-										<a class="dropdown-toggle" href="#">
+										<a class="dropdown-toggle" href="/news">
 											NEWS
 										</a>
 									</li>
